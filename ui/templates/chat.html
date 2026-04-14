@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Procurement Assistant</title>
+    <link rel="stylesheet" href="/static/chat.css" />
+</head>
+<body>
+    <div class="chat-shell">
+        <div class="chat-header">
+            <h1>Procurement Assistant</h1>
+            <p>Ask procurement questions about inventory, vendors, and policy.</p>
+            <button id="newConversationBtn" class="secondary-btn" type="button">New conversation</button>
+        </div>
+        <div id="messages"></div>
+        <div class="composer">
+            <textarea id="query" placeholder="Type your procurement question here..."></textarea>
+            <button id="sendBtn">Send</button>
+        </div>
+    </div>
+
+    <script src="/static/chat.js"></script>
+</body>
+</html>

@@ -1,0 +1,495 @@
+{"vendor_id": "V-001", "vendor_name": "Global Supplies 01", "categories": ["accessory", "furniture", "monitor"], "preferred": true, "region": "APAC", "sla_days": 13, "rating": 3.7}
+{"vendor_id": "V-002", "vendor_name": "Global Procurement 02", "categories": ["laptop", "printer"], "preferred": true, "region": "APAC", "sla_days": 5, "rating": 3.9}
+{"vendor_id": "V-003", "vendor_name": "Prime Procurement 03", "categories": ["printer"], "preferred": true, "region": "NA", "sla_days": 13, "rating": 4.3}
+{"vendor_id": "V-004", "vendor_name": "Vertex Partners 04", "categories": ["accessory", "laptop", "monitor"], "preferred": true, "region": "NA", "sla_days": 8, "rating": 4.0}
+{"vendor_id": "V-005", "vendor_name": "Summit Distribution 05", "categories": ["laptop", "printer"], "preferred": true, "region": "EMEA", "sla_days": 3, "rating": 4.1}
+{"vendor_id": "V-006", "vendor_name": "Nova Procurement 06", "categories": ["laptop", "network"], "preferred": true, "region": "NA", "sla_days": 3, "rating": 4.9}
+{"vendor_id": "V-007", "vendor_name": "Atlas Supplies 07", "categories": ["accessory", "furniture", "printer"], "preferred": true, "region": "NA", "sla_days": 5, "rating": 4.5}
+{"vendor_id": "V-008", "vendor_name": "Prime Direct 08", "categories": ["accessory"], "preferred": true, "region": "APAC", "sla_days": 5, "rating": 4.7}
+{"vendor_id": "V-009", "vendor_name": "Atlas Technologies 09", "categories": ["accessory", "printer"], "preferred": true, "region": "APAC", "sla_days": 7, "rating": 4.1}
+{"vendor_id": "V-010", "vendor_name": "BluePeak Direct 10", "categories": ["laptop", "monitor", "printer"], "preferred": true, "region": "NA", "sla_days": 13, "rating": 3.9}
+{"vendor_id": "V-011", "vendor_name": "Pioneer Partners 11", "categories": ["furniture", "printer"], "preferred": true, "region": "APAC", "sla_days": 12, "rating": 4.0}
+{"vendor_id": "V-012", "vendor_name": "Prime Distribution 12", "categories": ["accessory"], "preferred": false, "region": "EMEA", "sla_days": 6, "rating": 3.7}
+{"vendor_id": "V-013", "vendor_name": "Nova Distribution 13", "categories": ["furniture", "network", "printer"], "preferred": false, "region": "APAC", "sla_days": 6, "rating": 3.8}
+{"vendor_id": "V-014", "vendor_name": "BluePeak Direct 14", "categories": ["furniture", "network", "printer"], "preferred": false, "region": "EMEA", "sla_days": 5, "rating": 4.9}
+{"vendor_id": "V-015", "vendor_name": "Summit Procurement 15", "categories": ["laptop", "printer"], "preferred": false, "region": "APAC", "sla_days": 4, "rating": 4.4}
+{"vendor_id": "V-016", "vendor_name": "Atlas Procurement 16", "categories": ["network"], "preferred": false, "region": "EMEA", "sla_days": 11, "rating": 4.9}
+{"vendor_id": "V-017", "vendor_name": "BluePeak Procurement 17", "categories": ["printer"], "preferred": false, "region": "NA", "sla_days": 3, "rating": 4.5}
+{"vendor_id": "V-018", "vendor_name": "BluePeak Direct 18", "categories": ["accessory", "laptop"], "preferred": false, "region": "EMEA", "sla_days": 4, "rating": 4.2}
+{"vendor_id": "V-019", "vendor_name": "BluePeak Procurement 19", "categories": ["furniture"], "preferred": false, "region": "APAC", "sla_days": 12, "rating": 4.0}
+{"vendor_id": "V-020", "vendor_name": "Vertex Distribution 20", "categories": ["furniture", "monitor"], "preferred": false, "region": "NA", "sla_days": 2, "rating": 4.4}
+{"vendor_id": "V-021", "vendor_name": "Pioneer Supplies 21", "categories": ["accessory"], "preferred": false, "region": "EMEA", "sla_days": 5, "rating": 3.7}
+{"vendor_id": "V-022", "vendor_name": "Global Supplies 22", "categories": ["laptop", "monitor", "network"], "preferred": false, "region": "APAC", "sla_days": 12, "rating": 4.2}
+{"vendor_id": "V-023", "vendor_name": "Summit Technologies 23", "categories": ["furniture", "monitor", "network"], "preferred": false, "region": "NA", "sla_days": 14, "rating": 4.5}
+{"vendor_id": "V-024", "vendor_name": "Vertex Direct 24", "categories": ["accessory", "network"], "preferred": false, "region": "EMEA", "sla_days": 10, "rating": 4.2}
+{"vendor_id": "V-025", "vendor_name": "Vertex Distribution 25", "categories": ["accessory"], "preferred": false, "region": "APAC", "sla_days": 11, "rating": 4.3}
+{"vendor_id": "V-026", "vendor_name": "Vertex Supplies 26", "categories": ["printer"], "preferred": false, "region": "NA", "sla_days": 2, "rating": 3.9}
+{"vendor_id": "V-027", "vendor_name": "Prime Technologies 27", "categories": ["furniture"], "preferred": false, "region": "APAC", "sla_days": 6, "rating": 4.5}
+{"vendor_id": "V-028", "vendor_name": "Vertex Procurement 28", "categories": ["printer"], "preferred": false, "region": "NA", "sla_days": 11, "rating": 4.2}
+{"vendor_id": "V-029", "vendor_name": "Pioneer Partners 29", "categories": ["laptop"], "preferred": false, "region": "APAC", "sla_days": 12, "rating": 4.2}
+{"vendor_id": "V-030", "vendor_name": "Atlas Partners 30", "categories": ["laptop", "printer"], "preferred": false, "region": "NA", "sla_days": 12, "rating": 4.9}
+{"vendor_id": "V-031", "vendor_name": "Global Supplies 31", "categories": ["accessory", "printer"], "preferred": false, "region": "APAC", "sla_days": 5, "rating": 3.8}
+{"vendor_id": "V-032", "vendor_name": "Pioneer Distribution 32", "categories": ["accessory", "monitor"], "preferred": false, "region": "EMEA", "sla_days": 5, "rating": 4.7}
+{"vendor_id": "V-033", "vendor_name": "Global Partners 33", "categories": ["furniture", "laptop", "printer"], "preferred": false, "region": "APAC", "sla_days": 14, "rating": 4.7}
+{"vendor_id": "V-034", "vendor_name": "Summit Partners 34", "categories": ["monitor", "network"], "preferred": false, "region": "EMEA", "sla_days": 2, "rating": 3.8}
+{"vendor_id": "V-035", "vendor_name": "Prime Partners 35", "categories": ["accessory", "network"], "preferred": false, "region": "EMEA", "sla_days": 13, "rating": 4.8}
+{"vendor_id": "V-036", "vendor_name": "Pioneer Distribution 36", "categories": ["accessory"], "preferred": false, "region": "APAC", "sla_days": 2, "rating": 4.4}
+{"vendor_id": "V-037", "vendor_name": "Prime Direct 37", "categories": ["laptop", "printer"], "preferred": false, "region": "NA", "sla_days": 9, "rating": 4.3}
+{"vendor_id": "V-038", "vendor_name": "Summit Supplies 38", "categories": ["laptop", "monitor", "printer"], "preferred": false, "region": "NA", "sla_days": 3, "rating": 4.5}
+{"vendor_id": "V-039", "vendor_name": "Vertex Partners 39", "categories": ["furniture"], "preferred": false, "region": "APAC", "sla_days": 11, "rating": 4.4}
+{"vendor_id": "V-040", "vendor_name": "Global Partners 40", "categories": ["accessory", "furniture", "printer"], "preferred": false, "region": "EMEA", "sla_days": 5, "rating": 4.5}
+{"vendor_id": "V-041", "vendor_name": "Nova Distribution 41", "categories": ["monitor", "network"], "preferred": false, "region": "NA", "sla_days": 12, "rating": 4.0}
+{"vendor_id": "V-042", "vendor_name": "Nova Supplies 42", "categories": ["network"], "preferred": false, "region": "NA", "sla_days": 11, "rating": 4.9}
+{"vendor_id": "V-043", "vendor_name": "Global Procurement 43", "categories": ["furniture"], "preferred": false, "region": "EMEA", "sla_days": 4, "rating": 4.8}
+{"vendor_id": "V-044", "vendor_name": "Global Distribution 44", "categories": ["accessory", "monitor"], "preferred": false, "region": "EMEA", "sla_days": 10, "rating": 4.5}
+{"vendor_id": "V-045", "vendor_name": "Prime Direct 45", "categories": ["accessory", "laptop", "monitor"], "preferred": false, "region": "EMEA", "sla_days": 3, "rating": 4.8}
+{"vendor_id": "V-046", "vendor_name": "Global Supplies 46", "categories": ["accessory", "furniture", "monitor"], "preferred": false, "region": "APAC", "sla_days": 13, "rating": 3.7}
+{"vendor_id": "V-047", "vendor_name": "Global Procurement 47", "categories": ["laptop", "printer"], "preferred": false, "region": "APAC", "sla_days": 5, "rating": 3.9}
+{"vendor_id": "V-048", "vendor_name": "Prime Procurement 48", "categories": ["printer"], "preferred": false, "region": "NA", "sla_days": 13, "rating": 4.3}
+{"vendor_id": "V-049", "vendor_name": "Vertex Partners 49", "categories": ["accessory", "laptop", "monitor"], "preferred": false, "region": "NA", "sla_days": 8, "rating": 4.0}
+{"vendor_id": "V-050", "vendor_name": "Summit Distribution 50", "categories": ["laptop", "printer"], "preferred": false, "region": "EMEA", "sla_days": 3, "rating": 4.1}
+{"vendor_id": "V-051", "vendor_name": "Nova Procurement 51", "categories": ["laptop", "network"], "preferred": false, "region": "NA", "sla_days": 3, "rating": 4.9}
+{"vendor_id": "V-052", "vendor_name": "Atlas Supplies 52", "categories": ["accessory", "furniture", "printer"], "preferred": false, "region": "NA", "sla_days": 5, "rating": 4.5}
+{"vendor_id": "V-053", "vendor_name": "Prime Direct 53", "categories": ["accessory"], "preferred": false, "region": "APAC", "sla_days": 5, "rating": 4.7}
+{"vendor_id": "V-054", "vendor_name": "Atlas Technologies 54", "categories": ["accessory", "printer"], "preferred": false, "region": "APAC", "sla_days": 7, "rating": 4.1}
+{"vendor_id": "V-055", "vendor_name": "BluePeak Direct 55", "categories": ["laptop", "monitor", "printer"], "preferred": false, "region": "NA", "sla_days": 13, "rating": 3.9}
+{"vendor_id": "V-056", "vendor_name": "Pioneer Partners 56", "categories": ["furniture", "printer"], "preferred": false, "region": "APAC", "sla_days": 12, "rating": 4.0}
+{"vendor_id": "V-057", "vendor_name": "Prime Distribution 57", "categories": ["accessory"], "preferred": false, "region": "EMEA", "sla_days": 6, "rating": 3.7}
+{"vendor_id": "V-058", "vendor_name": "Nova Distribution 58", "categories": ["furniture", "network", "printer"], "preferred": false, "region": "APAC", "sla_days": 6, "rating": 3.8}
+{"vendor_id": "V-059", "vendor_name": "BluePeak Direct 59", "categories": ["furniture", "network", "printer"], "preferred": false, "region": "EMEA", "sla_days": 5, "rating": 4.9}
+{"vendor_id": "V-060", "vendor_name": "Summit Procurement 60", "categories": ["laptop", "printer"], "preferred": false, "region": "APAC", "sla_days": 4, "rating": 4.4}
+{"vendor_id": "V-061", "vendor_name": "Atlas Procurement 61", "categories": ["network"], "preferred": false, "region": "EMEA", "sla_days": 11, "rating": 4.9}
+{"vendor_id": "V-062", "vendor_name": "BluePeak Procurement 62", "categories": ["printer"], "preferred": false, "region": "NA", "sla_days": 3, "rating": 4.5}
+{"vendor_id": "V-063", "vendor_name": "BluePeak Direct 63", "categories": ["accessory", "laptop"], "preferred": false, "region": "EMEA", "sla_days": 4, "rating": 4.2}
+{"vendor_id": "V-064", "vendor_name": "BluePeak Procurement 64", "categories": ["furniture"], "preferred": false, "region": "APAC", "sla_days": 12, "rating": 4.0}
+{"vendor_id": "V-065", "vendor_name": "Vertex Distribution 65", "categories": ["furniture", "monitor"], "preferred": false, "region": "NA", "sla_days": 2, "rating": 4.4}
+{"vendor_id": "V-066", "vendor_name": "Pioneer Supplies 66", "categories": ["accessory"], "preferred": false, "region": "EMEA", "sla_days": 5, "rating": 3.7}
+{"vendor_id": "V-067", "vendor_name": "Global Supplies 67", "categories": ["laptop", "monitor", "network"], "preferred": false, "region": "APAC", "sla_days": 12, "rating": 4.2}
+{"vendor_id": "V-068", "vendor_name": "Summit Technologies 68", "categories": ["furniture", "monitor", "network"], "preferred": false, "region": "NA", "sla_days": 14, "rating": 4.5}
+{"vendor_id": "V-069", "vendor_name": "Vertex Direct 69", "categories": ["accessory", "network"], "preferred": false, "region": "EMEA", "sla_days": 10, "rating": 4.2}
+{"vendor_id": "V-070", "vendor_name": "Vertex Distribution 70", "categories": ["accessory"], "preferred": false, "region": "APAC", "sla_days": 11, "rating": 4.3}
+{"vendor_id": "V-071", "vendor_name": "Vertex Supplies 71", "categories": ["printer"], "preferred": false, "region": "NA", "sla_days": 2, "rating": 3.9}
+{"vendor_id": "V-072", "vendor_name": "Prime Technologies 72", "categories": ["furniture"], "preferred": false, "region": "APAC", "sla_days": 6, "rating": 4.5}
+{"vendor_id": "V-073", "vendor_name": "Vertex Procurement 73", "categories": ["printer"], "preferred": false, "region": "NA", "sla_days": 11, "rating": 4.2}
+{"vendor_id": "V-074", "vendor_name": "Pioneer Partners 74", "categories": ["laptop"], "preferred": false, "region": "APAC", "sla_days": 12, "rating": 4.2}
+{"vendor_id": "V-075", "vendor_name": "Atlas Partners 75", "categories": ["laptop", "printer"], "preferred": false, "region": "NA", "sla_days": 12, "rating": 4.9}
+{"vendor_id": "V-076", "vendor_name": "Global Supplies 76", "categories": ["accessory", "printer"], "preferred": false, "region": "APAC", "sla_days": 5, "rating": 3.8}
+{"vendor_id": "V-077", "vendor_name": "Pioneer Distribution 77", "categories": ["accessory", "monitor"], "preferred": false, "region": "EMEA", "sla_days": 5, "rating": 4.7}
+{"vendor_id": "V-078", "vendor_name": "Global Partners 78", "categories": ["furniture", "laptop", "printer"], "preferred": false, "region": "APAC", "sla_days": 14, "rating": 4.7}
+{"vendor_id": "V-079", "vendor_name": "Summit Partners 79", "categories": ["monitor", "network"], "preferred": false, "region": "EMEA", "sla_days": 2, "rating": 3.8}
+{"vendor_id": "V-080", "vendor_name": "Prime Partners 80", "categories": ["accessory", "network"], "preferred": false, "region": "EMEA", "sla_days": 13, "rating": 4.8}
+{"vendor_id": "V-081", "vendor_name": "Pioneer Distribution 81", "categories": ["accessory"], "preferred": false, "region": "APAC", "sla_days": 2, "rating": 4.4}
+{"vendor_id": "V-082", "vendor_name": "Prime Direct 82", "categories": ["laptop", "printer"], "preferred": false, "region": "NA", "sla_days": 9, "rating": 4.3}
+{"vendor_id": "V-083", "vendor_name": "Summit Supplies 83", "categories": ["laptop", "monitor", "printer"], "preferred": false, "region": "NA", "sla_days": 3, "rating": 4.5}
+{"vendor_id": "V-084", "vendor_name": "Vertex Partners 84", "categories": ["furniture"], "preferred": false, "region": "APAC", "sla_days": 11, "rating": 4.4}
+{"vendor_id": "V-085", "vendor_name": "Global Partners 85", "categories": ["accessory", "furniture", "printer"], "preferred": false, "region": "EMEA", "sla_days": 5, "rating": 4.5}
+{"vendor_id": "V-086", "vendor_name": "Nova Distribution 86", "categories": ["monitor", "network"], "preferred": false, "region": "NA", "sla_days": 12, "rating": 4.0}
+{"vendor_id": "V-087", "vendor_name": "Nova Supplies 87", "categories": ["network"], "preferred": false, "region": "NA", "sla_days": 11, "rating": 4.9}
+{"vendor_id": "V-088", "vendor_name": "Global Procurement 88", "categories": ["furniture"], "preferred": false, "region": "EMEA", "sla_days": 4, "rating": 4.8}
+{"vendor_id": "V-089", "vendor_name": "Global Distribution 89", "categories": ["accessory", "monitor"], "preferred": false, "region": "EMEA", "sla_days": 10, "rating": 4.5}
+{"vendor_id": "V-090", "vendor_name": "Prime Direct 90", "categories": ["accessory", "laptop", "monitor"], "preferred": false, "region": "EMEA", "sla_days": 3, "rating": 4.8}
+{"vendor_id": "V-091", "vendor_name": "Summit Technologies 91", "categories": ["furniture", "monitor"], "preferred": false, "region": "NA", "sla_days": 7, "rating": 3.9}
+{"vendor_id": "V-092", "vendor_name": "BluePeak Procurement 92", "categories": ["accessory", "laptop"], "preferred": false, "region": "APAC", "sla_days": 12, "rating": 4.2}
+{"vendor_id": "V-093", "vendor_name": "BluePeak Supplies 93", "categories": ["accessory"], "preferred": false, "region": "APAC", "sla_days": 12, "rating": 4.9}
+{"vendor_id": "V-094", "vendor_name": "Summit Direct 94", "categories": ["furniture", "network"], "preferred": false, "region": "NA", "sla_days": 2, "rating": 3.7}
+{"vendor_id": "V-095", "vendor_name": "Summit Procurement 95", "categories": ["accessory"], "preferred": false, "region": "NA", "sla_days": 10, "rating": 3.8}
+{"vendor_id": "V-096", "vendor_name": "Summit Supplies 96", "categories": ["accessory", "laptop"], "preferred": false, "region": "EMEA", "sla_days": 5, "rating": 4.5}
+{"vendor_id": "V-097", "vendor_name": "Global Technologies 97", "categories": ["furniture", "monitor", "network"], "preferred": false, "region": "APAC", "sla_days": 4, "rating": 4.9}
+{"vendor_id": "V-098", "vendor_name": "Summit Partners 98", "categories": ["monitor"], "preferred": false, "region": "NA", "sla_days": 7, "rating": 4.6}
+{"vendor_id": "V-099", "vendor_name": "Atlas Direct 99", "categories": ["accessory", "monitor", "printer"], "preferred": false, "region": "NA", "sla_days": 3, "rating": 4.1}
+{"vendor_id": "V-100", "vendor_name": "Prime Partners 100", "categories": ["monitor"], "preferred": false, "region": "EMEA", "sla_days": 7, "rating": 4.0}
+{"vendor_id": "V-101", "vendor_name": "Vertex Distribution 101", "categories": ["printer"], "preferred": false, "region": "APAC", "sla_days": 8, "rating": 4.0}
+{"vendor_id": "V-102", "vendor_name": "Global Technologies 102", "categories": ["furniture", "printer"], "preferred": false, "region": "EMEA", "sla_days": 12, "rating": 4.9}
+{"vendor_id": "V-103", "vendor_name": "Nova Supplies 103", "categories": ["accessory"], "preferred": false, "region": "APAC", "sla_days": 11, "rating": 4.9}
+{"vendor_id": "V-104", "vendor_name": "BluePeak Supplies 104", "categories": ["furniture"], "preferred": false, "region": "EMEA", "sla_days": 7, "rating": 4.5}
+{"vendor_id": "V-105", "vendor_name": "Nova Partners 105", "categories": ["furniture", "laptop", "network"], "preferred": false, "region": "NA", "sla_days": 5, "rating": 3.9}
+{"vendor_id": "V-106", "vendor_name": "Atlas Supplies 106", "categories": ["accessory", "furniture", "monitor"], "preferred": false, "region": "EMEA", "sla_days": 3, "rating": 4.8}
+{"vendor_id": "V-107", "vendor_name": "Nova Procurement 107", "categories": ["laptop", "printer"], "preferred": false, "region": "NA", "sla_days": 6, "rating": 4.3}
+{"vendor_id": "V-108", "vendor_name": "Atlas Technologies 108", "categories": ["accessory", "printer"], "preferred": false, "region": "NA", "sla_days": 4, "rating": 3.8}
+{"vendor_id": "V-109", "vendor_name": "Atlas Direct 109", "categories": ["accessory", "furniture", "monitor"], "preferred": false, "region": "EMEA", "sla_days": 10, "rating": 4.7}
+{"vendor_id": "V-110", "vendor_name": "BluePeak Technologies 110", "categories": ["network"], "preferred": false, "region": "NA", "sla_days": 11, "rating": 4.5}
+{"vendor_id": "V-111", "vendor_name": "Pioneer Partners 111", "categories": ["monitor", "printer"], "preferred": false, "region": "NA", "sla_days": 9, "rating": 4.6}
+{"vendor_id": "V-112", "vendor_name": "Summit Direct 112", "categories": ["accessory"], "preferred": false, "region": "NA", "sla_days": 12, "rating": 4.4}
+{"vendor_id": "V-113", "vendor_name": "Nova Supplies 113", "categories": ["printer"], "preferred": false, "region": "EMEA", "sla_days": 5, "rating": 4.6}
+{"vendor_id": "V-114", "vendor_name": "Summit Supplies 114", "categories": ["monitor"], "preferred": false, "region": "EMEA", "sla_days": 11, "rating": 4.7}
+{"vendor_id": "V-115", "vendor_name": "Global Partners 115", "categories": ["furniture", "printer"], "preferred": false, "region": "APAC", "sla_days": 13, "rating": 4.5}
+{"vendor_id": "V-116", "vendor_name": "Pioneer Partners 116", "categories": ["monitor"], "preferred": false, "region": "NA", "sla_days": 13, "rating": 3.6}
+{"vendor_id": "V-117", "vendor_name": "Global Partners 117", "categories": ["monitor"], "preferred": false, "region": "NA", "sla_days": 10, "rating": 4.2}
+{"vendor_id": "V-118", "vendor_name": "Vertex Supplies 118", "categories": ["monitor", "network"], "preferred": false, "region": "NA", "sla_days": 10, "rating": 4.9}
+{"vendor_id": "V-119", "vendor_name": "Nova Partners 119", "categories": ["furniture", "network", "printer"], "preferred": false, "region": "NA", "sla_days": 9, "rating": 4.8}
+{"vendor_id": "V-120", "vendor_name": "Pioneer Partners 120", "categories": ["accessory", "monitor"], "preferred": false, "region": "NA", "sla_days": 9, "rating": 4.4}
+{"vendor_id": "V-121", "vendor_name": "BluePeak Partners 121", "categories": ["printer"], "preferred": false, "region": "EMEA", "sla_days": 5, "rating": 4.0}
+{"vendor_id": "V-122", "vendor_name": "Nova Procurement 122", "categories": ["monitor"], "preferred": false, "region": "APAC", "sla_days": 5, "rating": 4.1}
+{"vendor_id": "V-123", "vendor_name": "Summit Direct 123", "categories": ["laptop"], "preferred": false, "region": "EMEA", "sla_days": 8, "rating": 4.0}
+{"vendor_id": "V-124", "vendor_name": "Pioneer Partners 124", "categories": ["monitor"], "preferred": false, "region": "EMEA", "sla_days": 8, "rating": 4.8}
+{"vendor_id": "V-125", "vendor_name": "Prime Procurement 125", "categories": ["laptop", "network"], "preferred": false, "region": "EMEA", "sla_days": 6, "rating": 4.6}
+{"vendor_id": "V-126", "vendor_name": "Atlas Procurement 126", "categories": ["furniture", "monitor", "printer"], "preferred": false, "region": "EMEA", "sla_days": 5, "rating": 4.0}
+{"vendor_id": "V-127", "vendor_name": "Pioneer Supplies 127", "categories": ["accessory", "network"], "preferred": false, "region": "NA", "sla_days": 4, "rating": 4.7}
+{"vendor_id": "V-128", "vendor_name": "Summit Procurement 128", "categories": ["laptop", "network", "printer"], "preferred": false, "region": "APAC", "sla_days": 12, "rating": 4.2}
+{"vendor_id": "V-129", "vendor_name": "Pioneer Distribution 129", "categories": ["accessory"], "preferred": false, "region": "EMEA", "sla_days": 7, "rating": 3.9}
+{"vendor_id": "V-130", "vendor_name": "Nova Technologies 130", "categories": ["accessory", "network"], "preferred": false, "region": "EMEA", "sla_days": 3, "rating": 4.2}
+{"vendor_id": "V-131", "vendor_name": "Prime Technologies 131", "categories": ["printer"], "preferred": false, "region": "APAC", "sla_days": 14, "rating": 4.8}
+{"vendor_id": "V-132", "vendor_name": "Prime Supplies 132", "categories": ["monitor"], "preferred": false, "region": "APAC", "sla_days": 11, "rating": 3.8}
+{"vendor_id": "V-133", "vendor_name": "Summit Partners 133", "categories": ["furniture", "laptop", "monitor"], "preferred": false, "region": "EMEA", "sla_days": 13, "rating": 3.9}
+{"vendor_id": "V-134", "vendor_name": "Nova Distribution 134", "categories": ["furniture", "laptop", "monitor"], "preferred": false, "region": "EMEA", "sla_days": 3, "rating": 4.4}
+{"vendor_id": "V-135", "vendor_name": "BluePeak Procurement 135", "categories": ["monitor", "network", "printer"], "preferred": false, "region": "APAC", "sla_days": 11, "rating": 4.5}
+{"vendor_id": "V-136", "vendor_name": "Vertex Supplies 136", "categories": ["accessory", "furniture", "laptop"], "preferred": false, "region": "NA", "sla_days": 14, "rating": 3.7}
+{"vendor_id": "V-137", "vendor_name": "Atlas Direct 137", "categories": ["furniture", "laptop"], "preferred": false, "region": "NA", "sla_days": 7, "rating": 3.6}
+{"vendor_id": "V-138", "vendor_name": "Atlas Partners 138", "categories": ["network"], "preferred": false, "region": "EMEA", "sla_days": 12, "rating": 4.8}
+{"vendor_id": "V-139", "vendor_name": "Pioneer Direct 139", "categories": ["network"], "preferred": false, "region": "APAC", "sla_days": 13, "rating": 4.3}
+{"vendor_id": "V-140", "vendor_name": "BluePeak Procurement 140", "categories": ["furniture", "network", "printer"], "preferred": false, "region": "NA", "sla_days": 11, "rating": 3.9}
+{"vendor_id": "V-141", "vendor_name": "Vertex Supplies 141", "categories": ["monitor", "network"], "preferred": false, "region": "EMEA", "sla_days": 11, "rating": 4.4}
+{"vendor_id": "V-142", "vendor_name": "Atlas Technologies 142", "categories": ["network"], "preferred": false, "region": "EMEA", "sla_days": 4, "rating": 4.2}
+{"vendor_id": "V-143", "vendor_name": "Nova Technologies 143", "categories": ["accessory", "furniture"], "preferred": false, "region": "NA", "sla_days": 6, "rating": 4.3}
+{"vendor_id": "V-144", "vendor_name": "Vertex Supplies 144", "categories": ["printer"], "preferred": false, "region": "EMEA", "sla_days": 9, "rating": 4.3}
+{"vendor_id": "V-145", "vendor_name": "Vertex Direct 145", "categories": ["network", "printer"], "preferred": false, "region": "EMEA", "sla_days": 14, "rating": 3.6}
+{"vendor_id": "V-146", "vendor_name": "BluePeak Distribution 146", "categories": ["monitor", "printer"], "preferred": false, "region": "EMEA", "sla_days": 12, "rating": 4.4}
+{"vendor_id": "V-147", "vendor_name": "Pioneer Procurement 147", "categories": ["accessory", "network", "printer"], "preferred": false, "region": "EMEA", "sla_days": 13, "rating": 4.2}
+{"vendor_id": "V-148", "vendor_name": "BluePeak Technologies 148", "categories": ["laptop"], "preferred": false, "region": "NA", "sla_days": 5, "rating": 4.0}
+{"vendor_id": "V-149", "vendor_name": "Summit Distribution 149", "categories": ["printer"], "preferred": false, "region": "EMEA", "sla_days": 6, "rating": 4.5}
+{"vendor_id": "V-150", "vendor_name": "BluePeak Supplies 150", "categories": ["accessory"], "preferred": false, "region": "APAC", "sla_days": 7, "rating": 3.8}
+{"vendor_id": "V-151", "vendor_name": "Prime Direct 151", "categories": ["accessory", "laptop", "monitor"], "preferred": false, "region": "APAC", "sla_days": 10, "rating": 4.0}
+{"vendor_id": "V-152", "vendor_name": "Summit Direct 152", "categories": ["laptop", "printer"], "preferred": false, "region": "NA", "sla_days": 6, "rating": 4.2}
+{"vendor_id": "V-153", "vendor_name": "Pioneer Technologies 153", "categories": ["laptop"], "preferred": false, "region": "EMEA", "sla_days": 9, "rating": 3.7}
+{"vendor_id": "V-154", "vendor_name": "Global Partners 154", "categories": ["furniture", "laptop"], "preferred": false, "region": "NA", "sla_days": 12, "rating": 3.7}
+{"vendor_id": "V-155", "vendor_name": "Summit Procurement 155", "categories": ["laptop", "monitor"], "preferred": false, "region": "APAC", "sla_days": 10, "rating": 4.6}
+{"vendor_id": "V-156", "vendor_name": "Vertex Procurement 156", "categories": ["network", "printer"], "preferred": false, "region": "EMEA", "sla_days": 11, "rating": 4.9}
+{"vendor_id": "V-157", "vendor_name": "BluePeak Procurement 157", "categories": ["furniture", "laptop", "printer"], "preferred": false, "region": "APAC", "sla_days": 12, "rating": 3.9}
+{"vendor_id": "V-158", "vendor_name": "Global Distribution 158", "categories": ["monitor"], "preferred": false, "region": "NA", "sla_days": 3, "rating": 3.8}
+{"vendor_id": "V-159", "vendor_name": "Atlas Partners 159", "categories": ["accessory", "furniture", "network"], "preferred": false, "region": "APAC", "sla_days": 5, "rating": 4.0}
+{"vendor_id": "V-160", "vendor_name": "BluePeak Direct 160", "categories": ["laptop", "monitor"], "preferred": false, "region": "EMEA", "sla_days": 14, "rating": 4.6}
+{"vendor_id": "V-161", "vendor_name": "Vertex Partners 161", "categories": ["furniture"], "preferred": false, "region": "APAC", "sla_days": 12, "rating": 3.8}
+{"vendor_id": "V-162", "vendor_name": "BluePeak Distribution 162", "categories": ["laptop"], "preferred": false, "region": "APAC", "sla_days": 14, "rating": 4.0}
+{"vendor_id": "V-163", "vendor_name": "BluePeak Partners 163", "categories": ["network"], "preferred": false, "region": "NA", "sla_days": 6, "rating": 4.5}
+{"vendor_id": "V-164", "vendor_name": "BluePeak Procurement 164", "categories": ["laptop", "network", "printer"], "preferred": false, "region": "NA", "sla_days": 2, "rating": 4.8}
+{"vendor_id": "V-165", "vendor_name": "Nova Procurement 165", "categories": ["laptop", "printer"], "preferred": false, "region": "APAC", "sla_days": 12, "rating": 4.7}
+{"vendor_id": "V-166", "vendor_name": "Prime Direct 166", "categories": ["furniture", "laptop"], "preferred": false, "region": "APAC", "sla_days": 9, "rating": 4.3}
+{"vendor_id": "V-167", "vendor_name": "Pioneer Technologies 167", "categories": ["furniture"], "preferred": false, "region": "EMEA", "sla_days": 12, "rating": 4.7}
+{"vendor_id": "V-168", "vendor_name": "Global Partners 168", "categories": ["accessory", "network"], "preferred": false, "region": "EMEA", "sla_days": 12, "rating": 3.7}
+{"vendor_id": "V-169", "vendor_name": "Summit Technologies 169", "categories": ["network", "printer"], "preferred": false, "region": "EMEA", "sla_days": 12, "rating": 4.8}
+{"vendor_id": "V-170", "vendor_name": "Prime Partners 170", "categories": ["accessory"], "preferred": false, "region": "EMEA", "sla_days": 7, "rating": 3.8}
+{"vendor_id": "V-171", "vendor_name": "Atlas Procurement 171", "categories": ["printer"], "preferred": false, "region": "NA", "sla_days": 9, "rating": 4.1}
+{"vendor_id": "V-172", "vendor_name": "Vertex Procurement 172", "categories": ["furniture", "network"], "preferred": false, "region": "NA", "sla_days": 9, "rating": 4.6}
+{"vendor_id": "V-173", "vendor_name": "Vertex Technologies 173", "categories": ["accessory", "monitor", "network"], "preferred": false, "region": "NA", "sla_days": 9, "rating": 3.8}
+{"vendor_id": "V-174", "vendor_name": "Vertex Direct 174", "categories": ["accessory"], "preferred": false, "region": "NA", "sla_days": 2, "rating": 4.3}
+{"vendor_id": "V-175", "vendor_name": "Global Distribution 175", "categories": ["network"], "preferred": false, "region": "APAC", "sla_days": 12, "rating": 4.7}
+{"vendor_id": "V-176", "vendor_name": "Pioneer Direct 176", "categories": ["accessory", "furniture"], "preferred": false, "region": "EMEA", "sla_days": 9, "rating": 4.9}
+{"vendor_id": "V-177", "vendor_name": "Vertex Partners 177", "categories": ["monitor", "network", "printer"], "preferred": false, "region": "NA", "sla_days": 10, "rating": 4.6}
+{"vendor_id": "V-178", "vendor_name": "Summit Supplies 178", "categories": ["accessory", "network"], "preferred": false, "region": "NA", "sla_days": 6, "rating": 4.7}
+{"vendor_id": "V-179", "vendor_name": "BluePeak Direct 179", "categories": ["furniture", "printer"], "preferred": false, "region": "NA", "sla_days": 9, "rating": 4.7}
+{"vendor_id": "V-180", "vendor_name": "Pioneer Procurement 180", "categories": ["accessory", "printer"], "preferred": false, "region": "NA", "sla_days": 14, "rating": 4.3}
+{"vendor_id": "V-181", "vendor_name": "Pioneer Technologies 181", "categories": ["printer"], "preferred": false, "region": "APAC", "sla_days": 11, "rating": 4.1}
+{"vendor_id": "V-182", "vendor_name": "Atlas Supplies 182", "categories": ["network", "printer"], "preferred": false, "region": "NA", "sla_days": 14, "rating": 4.1}
+{"vendor_id": "V-183", "vendor_name": "Summit Partners 183", "categories": ["monitor"], "preferred": false, "region": "NA", "sla_days": 11, "rating": 4.0}
+{"vendor_id": "V-184", "vendor_name": "Global Partners 184", "categories": ["furniture"], "preferred": false, "region": "EMEA", "sla_days": 2, "rating": 4.5}
+{"vendor_id": "V-185", "vendor_name": "Atlas Direct 185", "categories": ["laptop"], "preferred": false, "region": "EMEA", "sla_days": 14, "rating": 4.9}
+{"vendor_id": "V-186", "vendor_name": "Nova Procurement 186", "categories": ["accessory", "laptop", "network"], "preferred": false, "region": "NA", "sla_days": 10, "rating": 4.1}
+{"vendor_id": "V-187", "vendor_name": "Nova Direct 187", "categories": ["furniture", "laptop", "network"], "preferred": false, "region": "NA", "sla_days": 3, "rating": 3.9}
+{"vendor_id": "V-188", "vendor_name": "BluePeak Distribution 188", "categories": ["laptop", "network", "printer"], "preferred": false, "region": "NA", "sla_days": 13, "rating": 4.7}
+{"vendor_id": "V-189", "vendor_name": "Pioneer Distribution 189", "categories": ["accessory", "furniture", "laptop"], "preferred": false, "region": "EMEA", "sla_days": 14, "rating": 3.7}
+{"vendor_id": "V-190", "vendor_name": "Nova Technologies 190", "categories": ["monitor", "printer"], "preferred": false, "region": "NA", "sla_days": 8, "rating": 4.3}
+{"vendor_id": "V-191", "vendor_name": "Summit Distribution 191", "categories": ["laptop"], "preferred": false, "region": "NA", "sla_days": 8, "rating": 4.4}
+{"vendor_id": "V-192", "vendor_name": "Vertex Partners 192", "categories": ["monitor", "network", "printer"], "preferred": false, "region": "NA", "sla_days": 6, "rating": 4.2}
+{"vendor_id": "V-193", "vendor_name": "Prime Partners 193", "categories": ["furniture", "printer"], "preferred": false, "region": "APAC", "sla_days": 3, "rating": 4.2}
+{"vendor_id": "V-194", "vendor_name": "Nova Procurement 194", "categories": ["network", "printer"], "preferred": false, "region": "NA", "sla_days": 6, "rating": 4.2}
+{"vendor_id": "V-195", "vendor_name": "BluePeak Distribution 195", "categories": ["laptop", "network"], "preferred": false, "region": "APAC", "sla_days": 8, "rating": 4.3}
+{"vendor_id": "V-196", "vendor_name": "Global Supplies 196", "categories": ["accessory", "furniture", "monitor"], "preferred": false, "region": "APAC", "sla_days": 13, "rating": 3.7}
+{"vendor_id": "V-197", "vendor_name": "Global Procurement 197", "categories": ["laptop", "printer"], "preferred": false, "region": "APAC", "sla_days": 5, "rating": 3.9}
+{"vendor_id": "V-198", "vendor_name": "Prime Procurement 198", "categories": ["printer"], "preferred": false, "region": "NA", "sla_days": 13, "rating": 4.3}
+{"vendor_id": "V-199", "vendor_name": "Vertex Partners 199", "categories": ["accessory", "laptop", "monitor"], "preferred": false, "region": "NA", "sla_days": 8, "rating": 4.0}
+{"vendor_id": "V-200", "vendor_name": "Summit Distribution 200", "categories": ["laptop", "printer"], "preferred": false, "region": "EMEA", "sla_days": 3, "rating": 4.1}
+{"vendor_id": "V-201", "vendor_name": "Nova Procurement 201", "categories": ["laptop", "network"], "preferred": false, "region": "NA", "sla_days": 3, "rating": 4.9}
+{"vendor_id": "V-202", "vendor_name": "Atlas Supplies 202", "categories": ["accessory", "furniture", "printer"], "preferred": false, "region": "NA", "sla_days": 5, "rating": 4.5}
+{"vendor_id": "V-203", "vendor_name": "Prime Direct 203", "categories": ["accessory"], "preferred": false, "region": "APAC", "sla_days": 5, "rating": 4.7}
+{"vendor_id": "V-204", "vendor_name": "Atlas Technologies 204", "categories": ["accessory", "printer"], "preferred": false, "region": "APAC", "sla_days": 7, "rating": 4.1}
+{"vendor_id": "V-205", "vendor_name": "BluePeak Direct 205", "categories": ["laptop", "monitor", "printer"], "preferred": false, "region": "NA", "sla_days": 13, "rating": 3.9}
+{"vendor_id": "V-206", "vendor_name": "Pioneer Partners 206", "categories": ["furniture", "printer"], "preferred": false, "region": "APAC", "sla_days": 12, "rating": 4.0}
+{"vendor_id": "V-207", "vendor_name": "Prime Distribution 207", "categories": ["accessory"], "preferred": false, "region": "EMEA", "sla_days": 6, "rating": 3.7}
+{"vendor_id": "V-208", "vendor_name": "Nova Distribution 208", "categories": ["furniture", "network", "printer"], "preferred": false, "region": "APAC", "sla_days": 6, "rating": 3.8}
+{"vendor_id": "V-209", "vendor_name": "BluePeak Direct 209", "categories": ["furniture", "network", "printer"], "preferred": false, "region": "EMEA", "sla_days": 5, "rating": 4.9}
+{"vendor_id": "V-210", "vendor_name": "Summit Procurement 210", "categories": ["laptop", "printer"], "preferred": false, "region": "APAC", "sla_days": 4, "rating": 4.4}
+{"vendor_id": "V-211", "vendor_name": "Atlas Procurement 211", "categories": ["network"], "preferred": false, "region": "EMEA", "sla_days": 11, "rating": 4.9}
+{"vendor_id": "V-212", "vendor_name": "BluePeak Procurement 212", "categories": ["printer"], "preferred": false, "region": "NA", "sla_days": 3, "rating": 4.5}
+{"vendor_id": "V-213", "vendor_name": "BluePeak Direct 213", "categories": ["accessory", "laptop"], "preferred": false, "region": "EMEA", "sla_days": 4, "rating": 4.2}
+{"vendor_id": "V-214", "vendor_name": "BluePeak Procurement 214", "categories": ["furniture"], "preferred": false, "region": "APAC", "sla_days": 12, "rating": 4.0}
+{"vendor_id": "V-215", "vendor_name": "Vertex Distribution 215", "categories": ["furniture", "monitor"], "preferred": false, "region": "NA", "sla_days": 2, "rating": 4.4}
+{"vendor_id": "V-216", "vendor_name": "Pioneer Supplies 216", "categories": ["accessory"], "preferred": false, "region": "EMEA", "sla_days": 5, "rating": 3.7}
+{"vendor_id": "V-217", "vendor_name": "Global Supplies 217", "categories": ["laptop", "monitor", "network"], "preferred": false, "region": "APAC", "sla_days": 12, "rating": 4.2}
+{"vendor_id": "V-218", "vendor_name": "Summit Technologies 218", "categories": ["furniture", "monitor", "network"], "preferred": false, "region": "NA", "sla_days": 14, "rating": 4.5}
+{"vendor_id": "V-219", "vendor_name": "Vertex Direct 219", "categories": ["accessory", "network"], "preferred": false, "region": "EMEA", "sla_days": 10, "rating": 4.2}
+{"vendor_id": "V-220", "vendor_name": "Vertex Distribution 220", "categories": ["accessory"], "preferred": false, "region": "APAC", "sla_days": 11, "rating": 4.3}
+{"vendor_id": "V-221", "vendor_name": "Vertex Supplies 221", "categories": ["printer"], "preferred": false, "region": "NA", "sla_days": 2, "rating": 3.9}
+{"vendor_id": "V-222", "vendor_name": "Prime Technologies 222", "categories": ["furniture"], "preferred": false, "region": "APAC", "sla_days": 6, "rating": 4.5}
+{"vendor_id": "V-223", "vendor_name": "Vertex Procurement 223", "categories": ["printer"], "preferred": false, "region": "NA", "sla_days": 11, "rating": 4.2}
+{"vendor_id": "V-224", "vendor_name": "Pioneer Partners 224", "categories": ["laptop"], "preferred": false, "region": "APAC", "sla_days": 12, "rating": 4.2}
+{"vendor_id": "V-225", "vendor_name": "Atlas Partners 225", "categories": ["laptop", "printer"], "preferred": false, "region": "NA", "sla_days": 12, "rating": 4.9}
+{"vendor_id": "V-226", "vendor_name": "Global Supplies 226", "categories": ["accessory", "printer"], "preferred": false, "region": "APAC", "sla_days": 5, "rating": 3.8}
+{"vendor_id": "V-227", "vendor_name": "Pioneer Distribution 227", "categories": ["accessory", "monitor"], "preferred": false, "region": "EMEA", "sla_days": 5, "rating": 4.7}
+{"vendor_id": "V-228", "vendor_name": "Global Partners 228", "categories": ["furniture", "laptop", "printer"], "preferred": false, "region": "APAC", "sla_days": 14, "rating": 4.7}
+{"vendor_id": "V-229", "vendor_name": "Summit Partners 229", "categories": ["monitor", "network"], "preferred": false, "region": "EMEA", "sla_days": 2, "rating": 3.8}
+{"vendor_id": "V-230", "vendor_name": "Prime Partners 230", "categories": ["accessory", "network"], "preferred": false, "region": "EMEA", "sla_days": 13, "rating": 4.8}
+{"vendor_id": "V-231", "vendor_name": "Pioneer Distribution 231", "categories": ["accessory"], "preferred": false, "region": "APAC", "sla_days": 2, "rating": 4.4}
+{"vendor_id": "V-232", "vendor_name": "Prime Direct 232", "categories": ["laptop", "printer"], "preferred": false, "region": "NA", "sla_days": 9, "rating": 4.3}
+{"vendor_id": "V-233", "vendor_name": "Summit Supplies 233", "categories": ["laptop", "monitor", "printer"], "preferred": false, "region": "NA", "sla_days": 3, "rating": 4.5}
+{"vendor_id": "V-234", "vendor_name": "Vertex Partners 234", "categories": ["furniture"], "preferred": false, "region": "APAC", "sla_days": 11, "rating": 4.4}
+{"vendor_id": "V-235", "vendor_name": "Global Partners 235", "categories": ["accessory", "furniture", "printer"], "preferred": false, "region": "EMEA", "sla_days": 5, "rating": 4.5}
+{"vendor_id": "V-236", "vendor_name": "Nova Distribution 236", "categories": ["monitor", "network"], "preferred": false, "region": "NA", "sla_days": 12, "rating": 4.0}
+{"vendor_id": "V-237", "vendor_name": "Nova Supplies 237", "categories": ["network"], "preferred": false, "region": "NA", "sla_days": 11, "rating": 4.9}
+{"vendor_id": "V-238", "vendor_name": "Global Procurement 238", "categories": ["furniture"], "preferred": false, "region": "EMEA", "sla_days": 4, "rating": 4.8}
+{"vendor_id": "V-239", "vendor_name": "Global Distribution 239", "categories": ["accessory", "monitor"], "preferred": false, "region": "EMEA", "sla_days": 10, "rating": 4.5}
+{"vendor_id": "V-240", "vendor_name": "Prime Direct 240", "categories": ["accessory", "laptop", "monitor"], "preferred": false, "region": "EMEA", "sla_days": 3, "rating": 4.8}
+{"vendor_id": "V-241", "vendor_name": "Summit Technologies 241", "categories": ["furniture", "monitor"], "preferred": false, "region": "NA", "sla_days": 7, "rating": 3.9}
+{"vendor_id": "V-242", "vendor_name": "BluePeak Procurement 242", "categories": ["accessory", "laptop"], "preferred": false, "region": "APAC", "sla_days": 12, "rating": 4.2}
+{"vendor_id": "V-243", "vendor_name": "BluePeak Supplies 243", "categories": ["accessory"], "preferred": false, "region": "APAC", "sla_days": 12, "rating": 4.9}
+{"vendor_id": "V-244", "vendor_name": "Summit Direct 244", "categories": ["furniture", "network"], "preferred": false, "region": "NA", "sla_days": 2, "rating": 3.7}
+{"vendor_id": "V-245", "vendor_name": "Summit Procurement 245", "categories": ["accessory"], "preferred": false, "region": "NA", "sla_days": 10, "rating": 3.8}
+{"vendor_id": "V-246", "vendor_name": "Summit Supplies 246", "categories": ["accessory", "laptop"], "preferred": false, "region": "EMEA", "sla_days": 5, "rating": 4.5}
+{"vendor_id": "V-247", "vendor_name": "Global Technologies 247", "categories": ["furniture", "monitor", "network"], "preferred": false, "region": "APAC", "sla_days": 4, "rating": 4.9}
+{"vendor_id": "V-248", "vendor_name": "Summit Partners 248", "categories": ["monitor"], "preferred": false, "region": "NA", "sla_days": 7, "rating": 4.6}
+{"vendor_id": "V-249", "vendor_name": "Atlas Direct 249", "categories": ["accessory", "monitor", "printer"], "preferred": false, "region": "NA", "sla_days": 3, "rating": 4.1}
+{"vendor_id": "V-250", "vendor_name": "Prime Partners 250", "categories": ["monitor"], "preferred": false, "region": "EMEA", "sla_days": 7, "rating": 4.0}
+{"vendor_id": "V-251", "vendor_name": "Vertex Distribution 251", "categories": ["printer"], "preferred": false, "region": "APAC", "sla_days": 8, "rating": 4.0}
+{"vendor_id": "V-252", "vendor_name": "Global Technologies 252", "categories": ["furniture", "printer"], "preferred": false, "region": "EMEA", "sla_days": 12, "rating": 4.9}
+{"vendor_id": "V-253", "vendor_name": "Nova Supplies 253", "categories": ["accessory"], "preferred": false, "region": "APAC", "sla_days": 11, "rating": 4.9}
+{"vendor_id": "V-254", "vendor_name": "BluePeak Supplies 254", "categories": ["furniture"], "preferred": false, "region": "EMEA", "sla_days": 7, "rating": 4.5}
+{"vendor_id": "V-255", "vendor_name": "Nova Partners 255", "categories": ["furniture", "laptop", "network"], "preferred": false, "region": "NA", "sla_days": 5, "rating": 3.9}
+{"vendor_id": "V-256", "vendor_name": "Atlas Supplies 256", "categories": ["accessory", "furniture", "monitor"], "preferred": false, "region": "EMEA", "sla_days": 3, "rating": 4.8}
+{"vendor_id": "V-257", "vendor_name": "Nova Procurement 257", "categories": ["laptop", "printer"], "preferred": false, "region": "NA", "sla_days": 6, "rating": 4.3}
+{"vendor_id": "V-258", "vendor_name": "Atlas Technologies 258", "categories": ["accessory", "printer"], "preferred": false, "region": "NA", "sla_days": 4, "rating": 3.8}
+{"vendor_id": "V-259", "vendor_name": "Atlas Direct 259", "categories": ["accessory", "furniture", "monitor"], "preferred": false, "region": "EMEA", "sla_days": 10, "rating": 4.7}
+{"vendor_id": "V-260", "vendor_name": "BluePeak Technologies 260", "categories": ["network"], "preferred": false, "region": "NA", "sla_days": 11, "rating": 4.5}
+{"vendor_id": "V-261", "vendor_name": "Pioneer Partners 261", "categories": ["monitor", "printer"], "preferred": false, "region": "NA", "sla_days": 9, "rating": 4.6}
+{"vendor_id": "V-262", "vendor_name": "Summit Direct 262", "categories": ["accessory"], "preferred": false, "region": "NA", "sla_days": 12, "rating": 4.4}
+{"vendor_id": "V-263", "vendor_name": "Nova Supplies 263", "categories": ["printer"], "preferred": false, "region": "EMEA", "sla_days": 5, "rating": 4.6}
+{"vendor_id": "V-264", "vendor_name": "Summit Supplies 264", "categories": ["monitor"], "preferred": false, "region": "EMEA", "sla_days": 11, "rating": 4.7}
+{"vendor_id": "V-265", "vendor_name": "Global Partners 265", "categories": ["furniture", "printer"], "preferred": false, "region": "APAC", "sla_days": 13, "rating": 4.5}
+{"vendor_id": "V-266", "vendor_name": "Pioneer Partners 266", "categories": ["monitor"], "preferred": false, "region": "NA", "sla_days": 13, "rating": 3.6}
+{"vendor_id": "V-267", "vendor_name": "Global Partners 267", "categories": ["monitor"], "preferred": false, "region": "NA", "sla_days": 10, "rating": 4.2}
+{"vendor_id": "V-268", "vendor_name": "Vertex Supplies 268", "categories": ["monitor", "network"], "preferred": false, "region": "NA", "sla_days": 10, "rating": 4.9}
+{"vendor_id": "V-269", "vendor_name": "Nova Partners 269", "categories": ["furniture", "network", "printer"], "preferred": false, "region": "NA", "sla_days": 9, "rating": 4.8}
+{"vendor_id": "V-270", "vendor_name": "Pioneer Partners 270", "categories": ["accessory", "monitor"], "preferred": false, "region": "NA", "sla_days": 9, "rating": 4.4}
+{"vendor_id": "V-271", "vendor_name": "BluePeak Partners 271", "categories": ["printer"], "preferred": false, "region": "EMEA", "sla_days": 5, "rating": 4.0}
+{"vendor_id": "V-272", "vendor_name": "Nova Procurement 272", "categories": ["monitor"], "preferred": false, "region": "APAC", "sla_days": 5, "rating": 4.1}
+{"vendor_id": "V-273", "vendor_name": "Summit Direct 273", "categories": ["laptop"], "preferred": false, "region": "EMEA", "sla_days": 8, "rating": 4.0}
+{"vendor_id": "V-274", "vendor_name": "Pioneer Partners 274", "categories": ["monitor"], "preferred": false, "region": "EMEA", "sla_days": 8, "rating": 4.8}
+{"vendor_id": "V-275", "vendor_name": "Prime Procurement 275", "categories": ["laptop", "network"], "preferred": false, "region": "EMEA", "sla_days": 6, "rating": 4.6}
+{"vendor_id": "V-276", "vendor_name": "Atlas Procurement 276", "categories": ["furniture", "monitor", "printer"], "preferred": false, "region": "EMEA", "sla_days": 5, "rating": 4.0}
+{"vendor_id": "V-277", "vendor_name": "Pioneer Supplies 277", "categories": ["accessory", "network"], "preferred": false, "region": "NA", "sla_days": 4, "rating": 4.7}
+{"vendor_id": "V-278", "vendor_name": "Summit Procurement 278", "categories": ["laptop", "network", "printer"], "preferred": false, "region": "APAC", "sla_days": 12, "rating": 4.2}
+{"vendor_id": "V-279", "vendor_name": "Pioneer Distribution 279", "categories": ["accessory"], "preferred": false, "region": "EMEA", "sla_days": 7, "rating": 3.9}
+{"vendor_id": "V-280", "vendor_name": "Nova Technologies 280", "categories": ["accessory", "network"], "preferred": false, "region": "EMEA", "sla_days": 3, "rating": 4.2}
+{"vendor_id": "V-281", "vendor_name": "Prime Technologies 281", "categories": ["printer"], "preferred": false, "region": "APAC", "sla_days": 14, "rating": 4.8}
+{"vendor_id": "V-282", "vendor_name": "Prime Supplies 282", "categories": ["monitor"], "preferred": false, "region": "APAC", "sla_days": 11, "rating": 3.8}
+{"vendor_id": "V-283", "vendor_name": "Summit Partners 283", "categories": ["furniture", "laptop", "monitor"], "preferred": false, "region": "EMEA", "sla_days": 13, "rating": 3.9}
+{"vendor_id": "V-284", "vendor_name": "Nova Distribution 284", "categories": ["furniture", "laptop", "monitor"], "preferred": false, "region": "EMEA", "sla_days": 3, "rating": 4.4}
+{"vendor_id": "V-285", "vendor_name": "BluePeak Procurement 285", "categories": ["monitor", "network", "printer"], "preferred": false, "region": "APAC", "sla_days": 11, "rating": 4.5}
+{"vendor_id": "V-286", "vendor_name": "Vertex Supplies 286", "categories": ["accessory", "furniture", "laptop"], "preferred": false, "region": "NA", "sla_days": 14, "rating": 3.7}
+{"vendor_id": "V-287", "vendor_name": "Atlas Direct 287", "categories": ["furniture", "laptop"], "preferred": false, "region": "NA", "sla_days": 7, "rating": 3.6}
+{"vendor_id": "V-288", "vendor_name": "Atlas Partners 288", "categories": ["network"], "preferred": false, "region": "EMEA", "sla_days": 12, "rating": 4.8}
+{"vendor_id": "V-289", "vendor_name": "Pioneer Direct 289", "categories": ["network"], "preferred": false, "region": "APAC", "sla_days": 13, "rating": 4.3}
+{"vendor_id": "V-290", "vendor_name": "BluePeak Procurement 290", "categories": ["furniture", "network", "printer"], "preferred": false, "region": "NA", "sla_days": 11, "rating": 3.9}
+{"vendor_id": "V-291", "vendor_name": "Vertex Supplies 291", "categories": ["monitor", "network"], "preferred": false, "region": "EMEA", "sla_days": 11, "rating": 4.4}
+{"vendor_id": "V-292", "vendor_name": "Atlas Technologies 292", "categories": ["network"], "preferred": false, "region": "EMEA", "sla_days": 4, "rating": 4.2}
+{"vendor_id": "V-293", "vendor_name": "Nova Technologies 293", "categories": ["accessory", "furniture"], "preferred": false, "region": "NA", "sla_days": 6, "rating": 4.3}
+{"vendor_id": "V-294", "vendor_name": "Vertex Supplies 294", "categories": ["printer"], "preferred": false, "region": "EMEA", "sla_days": 9, "rating": 4.3}
+{"vendor_id": "V-295", "vendor_name": "Vertex Direct 295", "categories": ["network", "printer"], "preferred": false, "region": "EMEA", "sla_days": 14, "rating": 3.6}
+{"vendor_id": "V-296", "vendor_name": "BluePeak Distribution 296", "categories": ["monitor", "printer"], "preferred": false, "region": "EMEA", "sla_days": 12, "rating": 4.4}
+{"vendor_id": "V-297", "vendor_name": "Pioneer Procurement 297", "categories": ["accessory", "network", "printer"], "preferred": false, "region": "EMEA", "sla_days": 13, "rating": 4.2}
+{"vendor_id": "V-298", "vendor_name": "BluePeak Technologies 298", "categories": ["laptop"], "preferred": false, "region": "NA", "sla_days": 5, "rating": 4.0}
+{"vendor_id": "V-299", "vendor_name": "Summit Distribution 299", "categories": ["printer"], "preferred": false, "region": "EMEA", "sla_days": 6, "rating": 4.5}
+{"vendor_id": "V-300", "vendor_name": "BluePeak Supplies 300", "categories": ["accessory"], "preferred": false, "region": "APAC", "sla_days": 7, "rating": 3.8}
+{"vendor_id": "V-301", "vendor_name": "Prime Direct 301", "categories": ["accessory", "laptop", "monitor"], "preferred": false, "region": "APAC", "sla_days": 10, "rating": 4.0}
+{"vendor_id": "V-302", "vendor_name": "Summit Direct 302", "categories": ["laptop", "printer"], "preferred": false, "region": "NA", "sla_days": 6, "rating": 4.2}
+{"vendor_id": "V-303", "vendor_name": "Pioneer Technologies 303", "categories": ["laptop"], "preferred": false, "region": "EMEA", "sla_days": 9, "rating": 3.7}
+{"vendor_id": "V-304", "vendor_name": "Global Partners 304", "categories": ["furniture", "laptop"], "preferred": false, "region": "NA", "sla_days": 12, "rating": 3.7}
+{"vendor_id": "V-305", "vendor_name": "Summit Procurement 305", "categories": ["laptop", "monitor"], "preferred": false, "region": "APAC", "sla_days": 10, "rating": 4.6}
+{"vendor_id": "V-306", "vendor_name": "Vertex Procurement 306", "categories": ["network", "printer"], "preferred": false, "region": "EMEA", "sla_days": 11, "rating": 4.9}
+{"vendor_id": "V-307", "vendor_name": "BluePeak Procurement 307", "categories": ["furniture", "laptop", "printer"], "preferred": false, "region": "APAC", "sla_days": 12, "rating": 3.9}
+{"vendor_id": "V-308", "vendor_name": "Global Distribution 308", "categories": ["monitor"], "preferred": false, "region": "NA", "sla_days": 3, "rating": 3.8}
+{"vendor_id": "V-309", "vendor_name": "Atlas Partners 309", "categories": ["accessory", "furniture", "network"], "preferred": false, "region": "APAC", "sla_days": 5, "rating": 4.0}
+{"vendor_id": "V-310", "vendor_name": "BluePeak Direct 310", "categories": ["laptop", "monitor"], "preferred": false, "region": "EMEA", "sla_days": 14, "rating": 4.6}
+{"vendor_id": "V-311", "vendor_name": "Vertex Partners 311", "categories": ["furniture"], "preferred": false, "region": "APAC", "sla_days": 12, "rating": 3.8}
+{"vendor_id": "V-312", "vendor_name": "BluePeak Distribution 312", "categories": ["laptop"], "preferred": false, "region": "APAC", "sla_days": 14, "rating": 4.0}
+{"vendor_id": "V-313", "vendor_name": "BluePeak Partners 313", "categories": ["network"], "preferred": false, "region": "NA", "sla_days": 6, "rating": 4.5}
+{"vendor_id": "V-314", "vendor_name": "BluePeak Procurement 314", "categories": ["laptop", "network", "printer"], "preferred": false, "region": "NA", "sla_days": 2, "rating": 4.8}
+{"vendor_id": "V-315", "vendor_name": "Nova Procurement 315", "categories": ["laptop", "printer"], "preferred": false, "region": "APAC", "sla_days": 12, "rating": 4.7}
+{"vendor_id": "V-316", "vendor_name": "Prime Direct 316", "categories": ["furniture", "laptop"], "preferred": false, "region": "APAC", "sla_days": 9, "rating": 4.3}
+{"vendor_id": "V-317", "vendor_name": "Pioneer Technologies 317", "categories": ["furniture"], "preferred": false, "region": "EMEA", "sla_days": 12, "rating": 4.7}
+{"vendor_id": "V-318", "vendor_name": "Global Partners 318", "categories": ["accessory", "network"], "preferred": false, "region": "EMEA", "sla_days": 12, "rating": 3.7}
+{"vendor_id": "V-319", "vendor_name": "Summit Technologies 319", "categories": ["network", "printer"], "preferred": false, "region": "EMEA", "sla_days": 12, "rating": 4.8}
+{"vendor_id": "V-320", "vendor_name": "Prime Partners 320", "categories": ["accessory"], "preferred": false, "region": "EMEA", "sla_days": 7, "rating": 3.8}
+{"vendor_id": "V-321", "vendor_name": "Atlas Procurement 321", "categories": ["printer"], "preferred": false, "region": "NA", "sla_days": 9, "rating": 4.1}
+{"vendor_id": "V-322", "vendor_name": "Vertex Procurement 322", "categories": ["furniture", "network"], "preferred": false, "region": "NA", "sla_days": 9, "rating": 4.6}
+{"vendor_id": "V-323", "vendor_name": "Vertex Technologies 323", "categories": ["accessory", "monitor", "network"], "preferred": false, "region": "NA", "sla_days": 9, "rating": 3.8}
+{"vendor_id": "V-324", "vendor_name": "Vertex Direct 324", "categories": ["accessory"], "preferred": false, "region": "NA", "sla_days": 2, "rating": 4.3}
+{"vendor_id": "V-325", "vendor_name": "Global Distribution 325", "categories": ["network"], "preferred": false, "region": "APAC", "sla_days": 12, "rating": 4.7}
+{"vendor_id": "V-326", "vendor_name": "Pioneer Direct 326", "categories": ["accessory", "furniture"], "preferred": false, "region": "EMEA", "sla_days": 9, "rating": 4.9}
+{"vendor_id": "V-327", "vendor_name": "Vertex Partners 327", "categories": ["monitor", "network", "printer"], "preferred": false, "region": "NA", "sla_days": 10, "rating": 4.6}
+{"vendor_id": "V-328", "vendor_name": "Summit Supplies 328", "categories": ["accessory", "network"], "preferred": false, "region": "NA", "sla_days": 6, "rating": 4.7}
+{"vendor_id": "V-329", "vendor_name": "BluePeak Direct 329", "categories": ["furniture", "printer"], "preferred": false, "region": "NA", "sla_days": 9, "rating": 4.7}
+{"vendor_id": "V-330", "vendor_name": "Pioneer Procurement 330", "categories": ["accessory", "printer"], "preferred": false, "region": "NA", "sla_days": 14, "rating": 4.3}
+{"vendor_id": "V-331", "vendor_name": "Pioneer Technologies 331", "categories": ["printer"], "preferred": false, "region": "APAC", "sla_days": 11, "rating": 4.1}
+{"vendor_id": "V-332", "vendor_name": "Atlas Supplies 332", "categories": ["network", "printer"], "preferred": false, "region": "NA", "sla_days": 14, "rating": 4.1}
+{"vendor_id": "V-333", "vendor_name": "Summit Partners 333", "categories": ["monitor"], "preferred": false, "region": "NA", "sla_days": 11, "rating": 4.0}
+{"vendor_id": "V-334", "vendor_name": "Global Partners 334", "categories": ["furniture"], "preferred": false, "region": "EMEA", "sla_days": 2, "rating": 4.5}
+{"vendor_id": "V-335", "vendor_name": "Atlas Direct 335", "categories": ["laptop"], "preferred": false, "region": "EMEA", "sla_days": 14, "rating": 4.9}
+{"vendor_id": "V-336", "vendor_name": "Nova Procurement 336", "categories": ["accessory", "laptop", "network"], "preferred": false, "region": "NA", "sla_days": 10, "rating": 4.1}
+{"vendor_id": "V-337", "vendor_name": "Nova Direct 337", "categories": ["furniture", "laptop", "network"], "preferred": false, "region": "NA", "sla_days": 3, "rating": 3.9}
+{"vendor_id": "V-338", "vendor_name": "BluePeak Distribution 338", "categories": ["laptop", "network", "printer"], "preferred": false, "region": "NA", "sla_days": 13, "rating": 4.7}
+{"vendor_id": "V-339", "vendor_name": "Pioneer Distribution 339", "categories": ["accessory", "furniture", "laptop"], "preferred": false, "region": "EMEA", "sla_days": 14, "rating": 3.7}
+{"vendor_id": "V-340", "vendor_name": "Nova Technologies 340", "categories": ["monitor", "printer"], "preferred": false, "region": "NA", "sla_days": 8, "rating": 4.3}
+{"vendor_id": "V-341", "vendor_name": "Summit Distribution 341", "categories": ["laptop"], "preferred": false, "region": "NA", "sla_days": 8, "rating": 4.4}
+{"vendor_id": "V-342", "vendor_name": "Vertex Partners 342", "categories": ["monitor", "network", "printer"], "preferred": false, "region": "NA", "sla_days": 6, "rating": 4.2}
+{"vendor_id": "V-343", "vendor_name": "Prime Partners 343", "categories": ["furniture", "printer"], "preferred": false, "region": "APAC", "sla_days": 3, "rating": 4.2}
+{"vendor_id": "V-344", "vendor_name": "Nova Procurement 344", "categories": ["network", "printer"], "preferred": false, "region": "NA", "sla_days": 6, "rating": 4.2}
+{"vendor_id": "V-345", "vendor_name": "BluePeak Distribution 345", "categories": ["laptop", "network"], "preferred": false, "region": "APAC", "sla_days": 8, "rating": 4.3}
+{"vendor_id": "V-346", "vendor_name": "Global Supplies 346", "categories": ["accessory", "furniture", "monitor"], "preferred": false, "region": "APAC", "sla_days": 13, "rating": 3.7}
+{"vendor_id": "V-347", "vendor_name": "Global Procurement 347", "categories": ["laptop", "printer"], "preferred": false, "region": "APAC", "sla_days": 5, "rating": 3.9}
+{"vendor_id": "V-348", "vendor_name": "Prime Procurement 348", "categories": ["printer"], "preferred": false, "region": "NA", "sla_days": 13, "rating": 4.3}
+{"vendor_id": "V-349", "vendor_name": "Vertex Partners 349", "categories": ["accessory", "laptop", "monitor"], "preferred": false, "region": "NA", "sla_days": 8, "rating": 4.0}
+{"vendor_id": "V-350", "vendor_name": "Summit Distribution 350", "categories": ["laptop", "printer"], "preferred": false, "region": "EMEA", "sla_days": 3, "rating": 4.1}
+{"vendor_id": "V-351", "vendor_name": "Nova Procurement 351", "categories": ["laptop", "network"], "preferred": false, "region": "NA", "sla_days": 3, "rating": 4.9}
+{"vendor_id": "V-352", "vendor_name": "Atlas Supplies 352", "categories": ["accessory", "furniture", "printer"], "preferred": false, "region": "NA", "sla_days": 5, "rating": 4.5}
+{"vendor_id": "V-353", "vendor_name": "Prime Direct 353", "categories": ["accessory"], "preferred": false, "region": "APAC", "sla_days": 5, "rating": 4.7}
+{"vendor_id": "V-354", "vendor_name": "Atlas Technologies 354", "categories": ["accessory", "printer"], "preferred": false, "region": "APAC", "sla_days": 7, "rating": 4.1}
+{"vendor_id": "V-355", "vendor_name": "BluePeak Direct 355", "categories": ["laptop", "monitor", "printer"], "preferred": false, "region": "NA", "sla_days": 13, "rating": 3.9}
+{"vendor_id": "V-356", "vendor_name": "Pioneer Partners 356", "categories": ["furniture", "printer"], "preferred": false, "region": "APAC", "sla_days": 12, "rating": 4.0}
+{"vendor_id": "V-357", "vendor_name": "Prime Distribution 357", "categories": ["accessory"], "preferred": false, "region": "EMEA", "sla_days": 6, "rating": 3.7}
+{"vendor_id": "V-358", "vendor_name": "Nova Distribution 358", "categories": ["furniture", "network", "printer"], "preferred": false, "region": "APAC", "sla_days": 6, "rating": 3.8}
+{"vendor_id": "V-359", "vendor_name": "BluePeak Direct 359", "categories": ["furniture", "network", "printer"], "preferred": false, "region": "EMEA", "sla_days": 5, "rating": 4.9}
+{"vendor_id": "V-360", "vendor_name": "Summit Procurement 360", "categories": ["laptop", "printer"], "preferred": false, "region": "APAC", "sla_days": 4, "rating": 4.4}
+{"vendor_id": "V-361", "vendor_name": "Atlas Procurement 361", "categories": ["network"], "preferred": false, "region": "EMEA", "sla_days": 11, "rating": 4.9}
+{"vendor_id": "V-362", "vendor_name": "BluePeak Procurement 362", "categories": ["printer"], "preferred": false, "region": "NA", "sla_days": 3, "rating": 4.5}
+{"vendor_id": "V-363", "vendor_name": "BluePeak Direct 363", "categories": ["accessory", "laptop"], "preferred": false, "region": "EMEA", "sla_days": 4, "rating": 4.2}
+{"vendor_id": "V-364", "vendor_name": "BluePeak Procurement 364", "categories": ["furniture"], "preferred": false, "region": "APAC", "sla_days": 12, "rating": 4.0}
+{"vendor_id": "V-365", "vendor_name": "Vertex Distribution 365", "categories": ["furniture", "monitor"], "preferred": false, "region": "NA", "sla_days": 2, "rating": 4.4}
+{"vendor_id": "V-366", "vendor_name": "Pioneer Supplies 366", "categories": ["accessory"], "preferred": false, "region": "EMEA", "sla_days": 5, "rating": 3.7}
+{"vendor_id": "V-367", "vendor_name": "Global Supplies 367", "categories": ["laptop", "monitor", "network"], "preferred": false, "region": "APAC", "sla_days": 12, "rating": 4.2}
+{"vendor_id": "V-368", "vendor_name": "Summit Technologies 368", "categories": ["furniture", "monitor", "network"], "preferred": false, "region": "NA", "sla_days": 14, "rating": 4.5}
+{"vendor_id": "V-369", "vendor_name": "Vertex Direct 369", "categories": ["accessory", "network"], "preferred": false, "region": "EMEA", "sla_days": 10, "rating": 4.2}
+{"vendor_id": "V-370", "vendor_name": "Vertex Distribution 370", "categories": ["accessory"], "preferred": false, "region": "APAC", "sla_days": 11, "rating": 4.3}
+{"vendor_id": "V-371", "vendor_name": "Vertex Supplies 371", "categories": ["printer"], "preferred": false, "region": "NA", "sla_days": 2, "rating": 3.9}
+{"vendor_id": "V-372", "vendor_name": "Prime Technologies 372", "categories": ["furniture"], "preferred": false, "region": "APAC", "sla_days": 6, "rating": 4.5}
+{"vendor_id": "V-373", "vendor_name": "Vertex Procurement 373", "categories": ["printer"], "preferred": false, "region": "NA", "sla_days": 11, "rating": 4.2}
+{"vendor_id": "V-374", "vendor_name": "Pioneer Partners 374", "categories": ["laptop"], "preferred": false, "region": "APAC", "sla_days": 12, "rating": 4.2}
+{"vendor_id": "V-375", "vendor_name": "Atlas Partners 375", "categories": ["laptop", "printer"], "preferred": false, "region": "NA", "sla_days": 12, "rating": 4.9}
+{"vendor_id": "V-376", "vendor_name": "Global Supplies 376", "categories": ["accessory", "printer"], "preferred": false, "region": "APAC", "sla_days": 5, "rating": 3.8}
+{"vendor_id": "V-377", "vendor_name": "Pioneer Distribution 377", "categories": ["accessory", "monitor"], "preferred": false, "region": "EMEA", "sla_days": 5, "rating": 4.7}
+{"vendor_id": "V-378", "vendor_name": "Global Partners 378", "categories": ["furniture", "laptop", "printer"], "preferred": false, "region": "APAC", "sla_days": 14, "rating": 4.7}
+{"vendor_id": "V-379", "vendor_name": "Summit Partners 379", "categories": ["monitor", "network"], "preferred": false, "region": "EMEA", "sla_days": 2, "rating": 3.8}
+{"vendor_id": "V-380", "vendor_name": "Prime Partners 380", "categories": ["accessory", "network"], "preferred": false, "region": "EMEA", "sla_days": 13, "rating": 4.8}
+{"vendor_id": "V-381", "vendor_name": "Pioneer Distribution 381", "categories": ["accessory"], "preferred": false, "region": "APAC", "sla_days": 2, "rating": 4.4}
+{"vendor_id": "V-382", "vendor_name": "Prime Direct 382", "categories": ["laptop", "printer"], "preferred": false, "region": "NA", "sla_days": 9, "rating": 4.3}
+{"vendor_id": "V-383", "vendor_name": "Summit Supplies 383", "categories": ["laptop", "monitor", "printer"], "preferred": false, "region": "NA", "sla_days": 3, "rating": 4.5}
+{"vendor_id": "V-384", "vendor_name": "Vertex Partners 384", "categories": ["furniture"], "preferred": false, "region": "APAC", "sla_days": 11, "rating": 4.4}
+{"vendor_id": "V-385", "vendor_name": "Global Partners 385", "categories": ["accessory", "furniture", "printer"], "preferred": false, "region": "EMEA", "sla_days": 5, "rating": 4.5}
+{"vendor_id": "V-386", "vendor_name": "Nova Distribution 386", "categories": ["monitor", "network"], "preferred": false, "region": "NA", "sla_days": 12, "rating": 4.0}
+{"vendor_id": "V-387", "vendor_name": "Nova Supplies 387", "categories": ["network"], "preferred": false, "region": "NA", "sla_days": 11, "rating": 4.9}
+{"vendor_id": "V-388", "vendor_name": "Global Procurement 388", "categories": ["furniture"], "preferred": false, "region": "EMEA", "sla_days": 4, "rating": 4.8}
+{"vendor_id": "V-389", "vendor_name": "Global Distribution 389", "categories": ["accessory", "monitor"], "preferred": false, "region": "EMEA", "sla_days": 10, "rating": 4.5}
+{"vendor_id": "V-390", "vendor_name": "Prime Direct 390", "categories": ["accessory", "laptop", "monitor"], "preferred": false, "region": "EMEA", "sla_days": 3, "rating": 4.8}
+{"vendor_id": "V-391", "vendor_name": "Summit Technologies 391", "categories": ["furniture", "monitor"], "preferred": false, "region": "NA", "sla_days": 7, "rating": 3.9}
+{"vendor_id": "V-392", "vendor_name": "BluePeak Procurement 392", "categories": ["accessory", "laptop"], "preferred": false, "region": "APAC", "sla_days": 12, "rating": 4.2}
+{"vendor_id": "V-393", "vendor_name": "BluePeak Supplies 393", "categories": ["accessory"], "preferred": false, "region": "APAC", "sla_days": 12, "rating": 4.9}
+{"vendor_id": "V-394", "vendor_name": "Summit Direct 394", "categories": ["furniture", "network"], "preferred": false, "region": "NA", "sla_days": 2, "rating": 3.7}
+{"vendor_id": "V-395", "vendor_name": "Summit Procurement 395", "categories": ["accessory"], "preferred": false, "region": "NA", "sla_days": 10, "rating": 3.8}
+{"vendor_id": "V-396", "vendor_name": "Summit Supplies 396", "categories": ["accessory", "laptop"], "preferred": false, "region": "EMEA", "sla_days": 5, "rating": 4.5}
+{"vendor_id": "V-397", "vendor_name": "Global Technologies 397", "categories": ["furniture", "monitor", "network"], "preferred": false, "region": "APAC", "sla_days": 4, "rating": 4.9}
+{"vendor_id": "V-398", "vendor_name": "Summit Partners 398", "categories": ["monitor"], "preferred": false, "region": "NA", "sla_days": 7, "rating": 4.6}
+{"vendor_id": "V-399", "vendor_name": "Atlas Direct 399", "categories": ["accessory", "monitor", "printer"], "preferred": false, "region": "NA", "sla_days": 3, "rating": 4.1}
+{"vendor_id": "V-400", "vendor_name": "Prime Partners 400", "categories": ["monitor"], "preferred": false, "region": "EMEA", "sla_days": 7, "rating": 4.0}
+{"vendor_id": "V-401", "vendor_name": "Vertex Distribution 401", "categories": ["printer"], "preferred": false, "region": "APAC", "sla_days": 8, "rating": 4.0}
+{"vendor_id": "V-402", "vendor_name": "Global Technologies 402", "categories": ["furniture", "printer"], "preferred": false, "region": "EMEA", "sla_days": 12, "rating": 4.9}
+{"vendor_id": "V-403", "vendor_name": "Nova Supplies 403", "categories": ["accessory"], "preferred": false, "region": "APAC", "sla_days": 11, "rating": 4.9}
+{"vendor_id": "V-404", "vendor_name": "BluePeak Supplies 404", "categories": ["furniture"], "preferred": false, "region": "EMEA", "sla_days": 7, "rating": 4.5}
+{"vendor_id": "V-405", "vendor_name": "Nova Partners 405", "categories": ["furniture", "laptop", "network"], "preferred": false, "region": "NA", "sla_days": 5, "rating": 3.9}
+{"vendor_id": "V-406", "vendor_name": "Atlas Supplies 406", "categories": ["accessory", "furniture", "monitor"], "preferred": false, "region": "EMEA", "sla_days": 3, "rating": 4.8}
+{"vendor_id": "V-407", "vendor_name": "Nova Procurement 407", "categories": ["laptop", "printer"], "preferred": false, "region": "NA", "sla_days": 6, "rating": 4.3}
+{"vendor_id": "V-408", "vendor_name": "Atlas Technologies 408", "categories": ["accessory", "printer"], "preferred": false, "region": "NA", "sla_days": 4, "rating": 3.8}
+{"vendor_id": "V-409", "vendor_name": "Atlas Direct 409", "categories": ["accessory", "furniture", "monitor"], "preferred": false, "region": "EMEA", "sla_days": 10, "rating": 4.7}
+{"vendor_id": "V-410", "vendor_name": "BluePeak Technologies 410", "categories": ["network"], "preferred": false, "region": "NA", "sla_days": 11, "rating": 4.5}
+{"vendor_id": "V-411", "vendor_name": "Pioneer Partners 411", "categories": ["monitor", "printer"], "preferred": false, "region": "NA", "sla_days": 9, "rating": 4.6}
+{"vendor_id": "V-412", "vendor_name": "Summit Direct 412", "categories": ["accessory"], "preferred": false, "region": "NA", "sla_days": 12, "rating": 4.4}
+{"vendor_id": "V-413", "vendor_name": "Nova Supplies 413", "categories": ["printer"], "preferred": false, "region": "EMEA", "sla_days": 5, "rating": 4.6}
+{"vendor_id": "V-414", "vendor_name": "Summit Supplies 414", "categories": ["monitor"], "preferred": false, "region": "EMEA", "sla_days": 11, "rating": 4.7}
+{"vendor_id": "V-415", "vendor_name": "Global Partners 415", "categories": ["furniture", "printer"], "preferred": false, "region": "APAC", "sla_days": 13, "rating": 4.5}
+{"vendor_id": "V-416", "vendor_name": "Pioneer Partners 416", "categories": ["monitor"], "preferred": false, "region": "NA", "sla_days": 13, "rating": 3.6}
+{"vendor_id": "V-417", "vendor_name": "Global Partners 417", "categories": ["monitor"], "preferred": false, "region": "NA", "sla_days": 10, "rating": 4.2}
+{"vendor_id": "V-418", "vendor_name": "Vertex Supplies 418", "categories": ["monitor", "network"], "preferred": false, "region": "NA", "sla_days": 10, "rating": 4.9}
+{"vendor_id": "V-419", "vendor_name": "Nova Partners 419", "categories": ["furniture", "network", "printer"], "preferred": false, "region": "NA", "sla_days": 9, "rating": 4.8}
+{"vendor_id": "V-420", "vendor_name": "Pioneer Partners 420", "categories": ["accessory", "monitor"], "preferred": false, "region": "NA", "sla_days": 9, "rating": 4.4}
+{"vendor_id": "V-421", "vendor_name": "BluePeak Partners 421", "categories": ["printer"], "preferred": false, "region": "EMEA", "sla_days": 5, "rating": 4.0}
+{"vendor_id": "V-422", "vendor_name": "Nova Procurement 422", "categories": ["monitor"], "preferred": false, "region": "APAC", "sla_days": 5, "rating": 4.1}
+{"vendor_id": "V-423", "vendor_name": "Summit Direct 423", "categories": ["laptop"], "preferred": false, "region": "EMEA", "sla_days": 8, "rating": 4.0}
+{"vendor_id": "V-424", "vendor_name": "Pioneer Partners 424", "categories": ["monitor"], "preferred": false, "region": "EMEA", "sla_days": 8, "rating": 4.8}
+{"vendor_id": "V-425", "vendor_name": "Prime Procurement 425", "categories": ["laptop", "network"], "preferred": false, "region": "EMEA", "sla_days": 6, "rating": 4.6}
+{"vendor_id": "V-426", "vendor_name": "Atlas Procurement 426", "categories": ["furniture", "monitor", "printer"], "preferred": false, "region": "EMEA", "sla_days": 5, "rating": 4.0}
+{"vendor_id": "V-427", "vendor_name": "Pioneer Supplies 427", "categories": ["accessory", "network"], "preferred": false, "region": "NA", "sla_days": 4, "rating": 4.7}
+{"vendor_id": "V-428", "vendor_name": "Summit Procurement 428", "categories": ["laptop", "network", "printer"], "preferred": false, "region": "APAC", "sla_days": 12, "rating": 4.2}
+{"vendor_id": "V-429", "vendor_name": "Pioneer Distribution 429", "categories": ["accessory"], "preferred": false, "region": "EMEA", "sla_days": 7, "rating": 3.9}
+{"vendor_id": "V-430", "vendor_name": "Nova Technologies 430", "categories": ["accessory", "network"], "preferred": false, "region": "EMEA", "sla_days": 3, "rating": 4.2}
+{"vendor_id": "V-431", "vendor_name": "Prime Technologies 431", "categories": ["printer"], "preferred": false, "region": "APAC", "sla_days": 14, "rating": 4.8}
+{"vendor_id": "V-432", "vendor_name": "Prime Supplies 432", "categories": ["monitor"], "preferred": false, "region": "APAC", "sla_days": 11, "rating": 3.8}
+{"vendor_id": "V-433", "vendor_name": "Summit Partners 433", "categories": ["furniture", "laptop", "monitor"], "preferred": false, "region": "EMEA", "sla_days": 13, "rating": 3.9}
+{"vendor_id": "V-434", "vendor_name": "Nova Distribution 434", "categories": ["furniture", "laptop", "monitor"], "preferred": false, "region": "EMEA", "sla_days": 3, "rating": 4.4}
+{"vendor_id": "V-435", "vendor_name": "BluePeak Procurement 435", "categories": ["monitor", "network", "printer"], "preferred": false, "region": "APAC", "sla_days": 11, "rating": 4.5}
+{"vendor_id": "V-436", "vendor_name": "Vertex Supplies 436", "categories": ["accessory", "furniture", "laptop"], "preferred": false, "region": "NA", "sla_days": 14, "rating": 3.7}
+{"vendor_id": "V-437", "vendor_name": "Atlas Direct 437", "categories": ["furniture", "laptop"], "preferred": false, "region": "NA", "sla_days": 7, "rating": 3.6}
+{"vendor_id": "V-438", "vendor_name": "Atlas Partners 438", "categories": ["network"], "preferred": false, "region": "EMEA", "sla_days": 12, "rating": 4.8}
+{"vendor_id": "V-439", "vendor_name": "Pioneer Direct 439", "categories": ["network"], "preferred": false, "region": "APAC", "sla_days": 13, "rating": 4.3}
+{"vendor_id": "V-440", "vendor_name": "BluePeak Procurement 440", "categories": ["furniture", "network", "printer"], "preferred": false, "region": "NA", "sla_days": 11, "rating": 3.9}
+{"vendor_id": "V-441", "vendor_name": "Vertex Supplies 441", "categories": ["monitor", "network"], "preferred": false, "region": "EMEA", "sla_days": 11, "rating": 4.4}
+{"vendor_id": "V-442", "vendor_name": "Atlas Technologies 442", "categories": ["network"], "preferred": false, "region": "EMEA", "sla_days": 4, "rating": 4.2}
+{"vendor_id": "V-443", "vendor_name": "Nova Technologies 443", "categories": ["accessory", "furniture"], "preferred": false, "region": "NA", "sla_days": 6, "rating": 4.3}
+{"vendor_id": "V-444", "vendor_name": "Vertex Supplies 444", "categories": ["printer"], "preferred": false, "region": "EMEA", "sla_days": 9, "rating": 4.3}
+{"vendor_id": "V-445", "vendor_name": "Vertex Direct 445", "categories": ["network", "printer"], "preferred": false, "region": "EMEA", "sla_days": 14, "rating": 3.6}
+{"vendor_id": "V-446", "vendor_name": "BluePeak Distribution 446", "categories": ["monitor", "printer"], "preferred": false, "region": "EMEA", "sla_days": 12, "rating": 4.4}
+{"vendor_id": "V-447", "vendor_name": "Pioneer Procurement 447", "categories": ["accessory", "network", "printer"], "preferred": false, "region": "EMEA", "sla_days": 13, "rating": 4.2}
+{"vendor_id": "V-448", "vendor_name": "BluePeak Technologies 448", "categories": ["laptop"], "preferred": false, "region": "NA", "sla_days": 5, "rating": 4.0}
+{"vendor_id": "V-449", "vendor_name": "Summit Distribution 449", "categories": ["printer"], "preferred": false, "region": "EMEA", "sla_days": 6, "rating": 4.5}
+{"vendor_id": "V-450", "vendor_name": "BluePeak Supplies 450", "categories": ["accessory"], "preferred": false, "region": "APAC", "sla_days": 7, "rating": 3.8}
+{"vendor_id": "V-451", "vendor_name": "Prime Direct 451", "categories": ["accessory", "laptop", "monitor"], "preferred": false, "region": "APAC", "sla_days": 10, "rating": 4.0}
+{"vendor_id": "V-452", "vendor_name": "Summit Direct 452", "categories": ["laptop", "printer"], "preferred": false, "region": "NA", "sla_days": 6, "rating": 4.2}
+{"vendor_id": "V-453", "vendor_name": "Pioneer Technologies 453", "categories": ["laptop"], "preferred": false, "region": "EMEA", "sla_days": 9, "rating": 3.7}
+{"vendor_id": "V-454", "vendor_name": "Global Partners 454", "categories": ["furniture", "laptop"], "preferred": false, "region": "NA", "sla_days": 12, "rating": 3.7}
+{"vendor_id": "V-455", "vendor_name": "Summit Procurement 455", "categories": ["laptop", "monitor"], "preferred": false, "region": "APAC", "sla_days": 10, "rating": 4.6}
+{"vendor_id": "V-456", "vendor_name": "Vertex Procurement 456", "categories": ["network", "printer"], "preferred": false, "region": "EMEA", "sla_days": 11, "rating": 4.9}
+{"vendor_id": "V-457", "vendor_name": "BluePeak Procurement 457", "categories": ["furniture", "laptop", "printer"], "preferred": false, "region": "APAC", "sla_days": 12, "rating": 3.9}
+{"vendor_id": "V-458", "vendor_name": "Global Distribution 458", "categories": ["monitor"], "preferred": false, "region": "NA", "sla_days": 3, "rating": 3.8}
+{"vendor_id": "V-459", "vendor_name": "Atlas Partners 459", "categories": ["accessory", "furniture", "network"], "preferred": false, "region": "APAC", "sla_days": 5, "rating": 4.0}
+{"vendor_id": "V-460", "vendor_name": "BluePeak Direct 460", "categories": ["laptop", "monitor"], "preferred": false, "region": "EMEA", "sla_days": 14, "rating": 4.6}
+{"vendor_id": "V-461", "vendor_name": "Vertex Partners 461", "categories": ["furniture"], "preferred": false, "region": "APAC", "sla_days": 12, "rating": 3.8}
+{"vendor_id": "V-462", "vendor_name": "BluePeak Distribution 462", "categories": ["laptop"], "preferred": false, "region": "APAC", "sla_days": 14, "rating": 4.0}
+{"vendor_id": "V-463", "vendor_name": "BluePeak Partners 463", "categories": ["network"], "preferred": false, "region": "NA", "sla_days": 6, "rating": 4.5}
+{"vendor_id": "V-464", "vendor_name": "BluePeak Procurement 464", "categories": ["laptop", "network", "printer"], "preferred": false, "region": "NA", "sla_days": 2, "rating": 4.8}
+{"vendor_id": "V-465", "vendor_name": "Nova Procurement 465", "categories": ["laptop", "printer"], "preferred": false, "region": "APAC", "sla_days": 12, "rating": 4.7}
+{"vendor_id": "V-466", "vendor_name": "Prime Direct 466", "categories": ["furniture", "laptop"], "preferred": false, "region": "APAC", "sla_days": 9, "rating": 4.3}
+{"vendor_id": "V-467", "vendor_name": "Pioneer Technologies 467", "categories": ["furniture"], "preferred": false, "region": "EMEA", "sla_days": 12, "rating": 4.7}
+{"vendor_id": "V-468", "vendor_name": "Global Partners 468", "categories": ["accessory", "network"], "preferred": false, "region": "EMEA", "sla_days": 12, "rating": 3.7}
+{"vendor_id": "V-469", "vendor_name": "Summit Technologies 469", "categories": ["network", "printer"], "preferred": false, "region": "EMEA", "sla_days": 12, "rating": 4.8}
+{"vendor_id": "V-470", "vendor_name": "Prime Partners 470", "categories": ["accessory"], "preferred": false, "region": "EMEA", "sla_days": 7, "rating": 3.8}
+{"vendor_id": "V-471", "vendor_name": "Atlas Procurement 471", "categories": ["printer"], "preferred": false, "region": "NA", "sla_days": 9, "rating": 4.1}
+{"vendor_id": "V-472", "vendor_name": "Vertex Procurement 472", "categories": ["furniture", "network"], "preferred": false, "region": "NA", "sla_days": 9, "rating": 4.6}
+{"vendor_id": "V-473", "vendor_name": "Vertex Technologies 473", "categories": ["accessory", "monitor", "network"], "preferred": false, "region": "NA", "sla_days": 9, "rating": 3.8}
+{"vendor_id": "V-474", "vendor_name": "Vertex Direct 474", "categories": ["accessory"], "preferred": false, "region": "NA", "sla_days": 2, "rating": 4.3}
+{"vendor_id": "V-475", "vendor_name": "Global Distribution 475", "categories": ["network"], "preferred": false, "region": "APAC", "sla_days": 12, "rating": 4.7}
+{"vendor_id": "V-476", "vendor_name": "Pioneer Direct 476", "categories": ["accessory", "furniture"], "preferred": false, "region": "EMEA", "sla_days": 9, "rating": 4.9}
+{"vendor_id": "V-477", "vendor_name": "Vertex Partners 477", "categories": ["monitor", "network", "printer"], "preferred": false, "region": "NA", "sla_days": 10, "rating": 4.6}
+{"vendor_id": "V-478", "vendor_name": "Summit Supplies 478", "categories": ["accessory", "network"], "preferred": false, "region": "NA", "sla_days": 6, "rating": 4.7}
+{"vendor_id": "V-479", "vendor_name": "BluePeak Direct 479", "categories": ["furniture", "printer"], "preferred": false, "region": "NA", "sla_days": 9, "rating": 4.7}
+{"vendor_id": "V-480", "vendor_name": "Pioneer Procurement 480", "categories": ["accessory", "printer"], "preferred": false, "region": "NA", "sla_days": 14, "rating": 4.3}
+{"vendor_id": "V-481", "vendor_name": "Pioneer Technologies 481", "categories": ["printer"], "preferred": false, "region": "APAC", "sla_days": 11, "rating": 4.1}
+{"vendor_id": "V-482", "vendor_name": "Atlas Supplies 482", "categories": ["network", "printer"], "preferred": false, "region": "NA", "sla_days": 14, "rating": 4.1}
+{"vendor_id": "V-483", "vendor_name": "Summit Partners 483", "categories": ["monitor"], "preferred": false, "region": "NA", "sla_days": 11, "rating": 4.0}
+{"vendor_id": "V-484", "vendor_name": "Global Partners 484", "categories": ["furniture"], "preferred": false, "region": "EMEA", "sla_days": 2, "rating": 4.5}
+{"vendor_id": "V-485", "vendor_name": "Atlas Direct 485", "categories": ["laptop"], "preferred": false, "region": "EMEA", "sla_days": 14, "rating": 4.9}
+{"vendor_id": "V-486", "vendor_name": "Nova Procurement 486", "categories": ["accessory", "laptop", "network"], "preferred": false, "region": "NA", "sla_days": 10, "rating": 4.1}
+{"vendor_id": "V-487", "vendor_name": "Nova Direct 487", "categories": ["furniture", "laptop", "network"], "preferred": false, "region": "NA", "sla_days": 3, "rating": 3.9}
+{"vendor_id": "V-488", "vendor_name": "BluePeak Distribution 488", "categories": ["laptop", "network", "printer"], "preferred": false, "region": "NA", "sla_days": 13, "rating": 4.7}
+{"vendor_id": "V-489", "vendor_name": "Pioneer Distribution 489", "categories": ["accessory", "furniture", "laptop"], "preferred": false, "region": "EMEA", "sla_days": 14, "rating": 3.7}
+{"vendor_id": "V-490", "vendor_name": "Nova Technologies 490", "categories": ["monitor", "printer"], "preferred": false, "region": "NA", "sla_days": 8, "rating": 4.3}
+{"vendor_id": "V-491", "vendor_name": "Summit Distribution 491", "categories": ["laptop"], "preferred": false, "region": "NA", "sla_days": 8, "rating": 4.4}
+{"vendor_id": "V-492", "vendor_name": "Vertex Partners 492", "categories": ["monitor", "network", "printer"], "preferred": false, "region": "NA", "sla_days": 6, "rating": 4.2}
+{"vendor_id": "V-493", "vendor_name": "Prime Partners 493", "categories": ["furniture", "printer"], "preferred": false, "region": "APAC", "sla_days": 3, "rating": 4.2}
+{"vendor_id": "V-494", "vendor_name": "Nova Procurement 494", "categories": ["network", "printer"], "preferred": false, "region": "NA", "sla_days": 6, "rating": 4.2}
+{"vendor_id": "V-495", "vendor_name": "BluePeak Distribution 495", "categories": ["laptop", "network"], "preferred": false, "region": "APAC", "sla_days": 8, "rating": 4.3}

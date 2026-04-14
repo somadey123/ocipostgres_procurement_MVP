@@ -1,0 +1,9 @@
+langchain
+langchain-community
+oci
+psycopg2-binary
+pgvector
+streamlit
+python-dotenv
+faker
+numpy
