@@ -31,3 +31,7 @@ htmlcov/
 # OS/editor noise
 .DS_Store
 .specify/
+
+# Runtime artifacts
+nohup.out
+data/session_history.json
