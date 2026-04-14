@@ -1,7 +1,9 @@
 import asyncio
 import json
+import os
 from collections import defaultdict
 from pathlib import Path
+from threading import RLock
 from typing import Optional
 from uuid import uuid4
 
@@ -26,6 +28,80 @@ app.mount("/static", StaticFiles(directory=str(BASE_DIR / "ui" / "static")), nam
 templates = Jinja2Templates(directory=str(BASE_DIR / "ui" / "templates"))
 executor = get_executor()
 session_history = defaultdict(list)
+session_lock = RLock()
+
+SESSION_STORE_PATH = BASE_DIR / "data" / "session_history.json"
+MAX_TURNS_PER_SESSION = int(os.getenv("CHAT_MAX_TURNS_PER_SESSION", "20"))
+MAX_SESSIONS = int(os.getenv("CHAT_MAX_SESSIONS", "500"))
+
+
+def _bounded_history(history: list) -> list:
+    max_messages = max(2, MAX_TURNS_PER_SESSION * 2)
+    return history[-max_messages:]
+
+
+def _serialize_history(history: list) -> list[dict]:
+    data = []
+    for message in history:
+        if isinstance(message, HumanMessage):
+            data.append({"type": "human", "content": message.content})
+        elif isinstance(message, AIMessage):
+            data.append({"type": "ai", "content": message.content})
+    return data
+
+
+def _deserialize_history(data: list[dict]) -> list:
+    history = []
+    for item in data:
+        mtype = item.get("type")
+        content = item.get("content", "")
+        if mtype == "human":
+            history.append(HumanMessage(content=content))
+        elif mtype == "ai":
+            history.append(AIMessage(content=content))
+    return _bounded_history(history)
+
+
+def _trim_sessions() -> None:
+    if len(session_history) <= MAX_SESSIONS:
+        return
+    overflow = len(session_history) - MAX_SESSIONS
+    for sid in list(session_history.keys())[:overflow]:
+        session_history.pop(sid, None)
+
+
+def load_session_store() -> None:
+    if not SESSION_STORE_PATH.exists():
+        return
+    try:
+        with SESSION_STORE_PATH.open("r", encoding="utf-8") as f:
+            raw = json.load(f)
+        if not isinstance(raw, dict):
+            return
+        with session_lock:
+            for sid, messages in raw.items():
+                if isinstance(messages, list):
+                    session_history[sid] = _deserialize_history(messages)
+            _trim_sessions()
+    except Exception:
+        # Avoid failing app startup due to optional chat history file issues.
+        return
+
+
+def persist_session_store() -> None:
+    SESSION_STORE_PATH.parent.mkdir(parents=True, exist_ok=True)
+    with session_lock:
+        snapshot = {
+            sid: _serialize_history(_bounded_history(history))
+            for sid, history in session_history.items()
+        }
+    temp_path = SESSION_STORE_PATH.with_suffix(".tmp")
+    with temp_path.open("w", encoding="utf-8") as f:
+        json.dump(snapshot, f, ensure_ascii=False)
+    temp_path.replace(SESSION_STORE_PATH)
+
+
+load_session_store()
 
 
 def resolve_session_id(session_id: Optional[str]) -> str:
@@ -33,11 +109,17 @@ def resolve_session_id(session_id: Optional[str]) -> str:
 
 
 def invoke_agent(message: str, sid: str) -> str:
-    history = session_history[sid]
+    with session_lock:
+        history = _bounded_history(session_history[sid])
+        session_history[sid] = history
     result = executor.invoke({"input": message, "chat_history": history})
     answer = result.get("output", "No response generated.")
-    history.append(HumanMessage(content=message))
-    history.append(AIMessage(content=answer))
+    with session_lock:
+        history.append(HumanMessage(content=message))
+        history.append(AIMessage(content=answer))
+        session_history[sid] = _bounded_history(history)
+        _trim_sessions()
+    persist_session_store()
     return answer
 
 
@@ -86,6 +168,8 @@ async def chat_stream(payload: ChatIn):
 
 @app.delete("/chat/session/{session_id}")
 def clear_chat_session(session_id: str):
-    existed = session_id in session_history
-    session_history.pop(session_id, None)
+    with session_lock:
+        existed = session_id in session_history
+        session_history.pop(session_id, None)
+    persist_session_store()
     return {"cleared": existed, "session_id": session_id}

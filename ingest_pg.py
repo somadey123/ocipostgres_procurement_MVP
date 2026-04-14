@@ -11,6 +11,7 @@ from pgvector.psycopg import register_vector, Vector
 
 ROOT = Path(__file__).parent
 DATA_DIR = ROOT / "data" / "synthetic"
+POLICY_DIR = DATA_DIR / "policies"
 
 load_dotenv()
 
@@ -146,6 +147,14 @@ def load_jsonl(path: Path):
             yield json.loads(line)
 
 
+def load_policy_docs(policy_dir: Path) -> list[tuple[str, str]]:
+    docs: list[tuple[str, str]] = []
+    for file_path in sorted(policy_dir.glob("*.md")):
+        text = file_path.read_text(encoding="utf-8", errors="ignore")
+        docs.append((f"policies/{file_path.name}", text))
+    return docs
+
+
 def inventory_business_key(row: dict) -> tuple:
     return (
         row.get("item_name"),
@@ -172,6 +181,7 @@ def dedupe_inventory_rows(rows: list[dict]) -> list[dict]:
 def main():
     inventory = dedupe_inventory_rows(list(load_jsonl(DATA_DIR / "inventory.jsonl")))
     vendors = list(load_jsonl(DATA_DIR / "vendors.jsonl"))
+    policies = load_policy_docs(POLICY_DIR)
     genai_client = build_genai_client()
 
     with connect() as conn:
@@ -183,6 +193,7 @@ def main():
 
             cur.execute("DELETE FROM inventory_items;")
             cur.execute("DELETE FROM vendors;")
+            cur.execute("DELETE FROM policy_chunks;")
 
             for row in inventory:
                 emb = embed_text_oci(row_text_inventory(row), genai_client)
@@ -225,6 +236,20 @@ def main():
                         Vector(emb),
                     ),
                 )
+
+            for object_name, text in policies:
+                chunks = chunk_text(text)
+                policy_name = Path(object_name).name
+                for chunk_index, chunk in enumerate(chunks):
+                    emb = embed_text_oci(chunk, genai_client)
+                    cur.execute(
+                        """
+                        INSERT INTO policy_chunks
+                        (policy_name, section_title, chunk_text, keywords, embedding, object_name, chunk_index, content)
+                        VALUES (%s,%s,%s,%s,%s,%s,%s,%s)
+                        """,
+                        (policy_name, None, chunk, [], Vector(emb), object_name, chunk_index, chunk),
+                    )
 
         conn.commit()
 

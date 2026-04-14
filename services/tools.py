@@ -75,6 +75,9 @@ def search_procurement_db(query: str) -> dict:
         with pg_conn() as conn:
             register_vector(conn)
             with conn.cursor() as cur:
+                # Tune IVFFlat recall/speed trade-off per query session.
+                # Increase probes for better recall; decrease for lower latency.
+                cur.execute("SET LOCAL ivfflat.probes = 10;")
                 qvec_db = Vector(qvec)
 
                 cur.execute(
@@ -132,8 +135,8 @@ def search_procurement_db(query: str) -> dict:
 
 @tool
 def search_procurement_policy(query: str) -> list[dict]:
-    """Search procurement policy documents stored in OCI Object Storage."""
-    try:
+    """Search procurement policy content using pgvector semantic similarity over indexed policy chunks."""
+    def object_storage_fallback() -> list[dict]:
         client = oci_object_storage_client()
         namespace = client.get_namespace().data
         bucket = os.environ["OCI_BUCKET"]
@@ -153,7 +156,58 @@ def search_procurement_policy(query: str) -> list[dict]:
         scored.sort(reverse=True, key=lambda x: x[0])
         top = []
         for score, name, body in scored[:3]:
-            top.append({"object_name": name, "score": score, "snippet": body[:1200]})
+            top.append({"object_name": name, "score": score, "snippet": body[:1200], "source": "object_storage_fallback"})
         return top
+
+    try:
+        qvec = embed_text(query)
+        with pg_conn() as conn:
+            register_vector(conn)
+            with conn.cursor() as cur:
+                cur.execute("SET LOCAL ivfflat.probes = 10;")
+                cur.execute(
+                    """
+                    SELECT COALESCE(object_name, policy_name) AS object_name,
+                           COALESCE(chunk_index, 0) AS chunk_index,
+                           COALESCE(content, chunk_text) AS content,
+                           1 - (embedding <=> %s) AS similarity
+                    FROM policy_chunks
+                    ORDER BY embedding <=> %s
+                    LIMIT 8
+                    """,
+                    (Vector(qvec), Vector(qvec)),
+                )
+                rows = cur.fetchall()
+
+        if not rows:
+            return object_storage_fallback()
+
+        grouped: dict[str, dict] = {}
+        for object_name, chunk_index, content, similarity in rows:
+            bucket = grouped.setdefault(
+                object_name,
+                {"object_name": object_name, "score": 0.0, "chunks": []},
+            )
+            bucket["score"] = max(float(similarity or 0.0), bucket["score"])
+            bucket["chunks"].append((int(chunk_index), content))
+
+        ranked = sorted(grouped.values(), key=lambda x: x["score"], reverse=True)[:3]
+        out = []
+        for rec in ranked:
+            ordered_chunks = [c for _, c in sorted(rec["chunks"], key=lambda x: x[0])]
+            snippet = "\n\n".join(ordered_chunks)[:1200]
+            out.append(
+                {
+                    "object_name": rec["object_name"],
+                    "score": round(rec["score"], 4),
+                    "snippet": snippet,
+                    "source": "postgres_vector",
+                }
+            )
+        return out
     except Exception as e:
-        return [{"error": f"search_procurement_policy failed: {e}"}]
+        try:
+            fallback = object_storage_fallback()
+            return fallback or [{"error": f"search_procurement_policy failed: {e}"}]
+        except Exception as fallback_error:
+            return [{"error": f"search_procurement_policy failed: {e}; fallback failed: {fallback_error}"}]
