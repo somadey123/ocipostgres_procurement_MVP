@@ -69,7 +69,7 @@ def embed_text(text: str) -> list[float]:
 
 @tool
 def search_procurement_db(query: str) -> dict:
-    """Search inventory and preferred vendors in PostgreSQL using pgvector similarity."""
+    """Hybrid search inventory and vendors using full-text + pgvector similarity."""
     try:
         qvec = embed_text(query)
         with pg_conn() as conn:
@@ -82,23 +82,89 @@ def search_procurement_db(query: str) -> dict:
 
                 cur.execute(
                     """
-                    SELECT item_id, item_name, category, description, stock_qty, preferred_vendor, estimated_price, lead_time_days
-                    FROM inventory_items
-                    ORDER BY embedding <=> %s
+                    WITH q AS (
+                        SELECT plainto_tsquery('english', %s) AS tsq,
+                               %s::vector AS qvec
+                    ),
+                    ranked AS (
+                        SELECT i.item_id,
+                               i.item_name,
+                               i.category,
+                               i.description,
+                               i.stock_qty,
+                               i.preferred_vendor,
+                               i.estimated_price,
+                               i.lead_time_days,
+                               ts_rank_cd(
+                                   to_tsvector(
+                                       'english',
+                                       coalesce(i.item_name,'') || ' ' || coalesce(i.category,'') || ' ' || coalesce(i.description,'') || ' ' || coalesce(i.preferred_vendor,'')
+                                   ),
+                                   q.tsq
+                               ) AS fts_score,
+                               1 - (i.embedding <=> q.qvec) AS vector_score
+                        FROM inventory_items i
+                        CROSS JOIN q
+                    )
+                    SELECT item_id,
+                           item_name,
+                           category,
+                           description,
+                           stock_qty,
+                           preferred_vendor,
+                           estimated_price,
+                           lead_time_days,
+                           fts_score,
+                           vector_score,
+                           (0.40 * fts_score + 0.60 * vector_score) AS hybrid_score
+                    FROM ranked
+                    ORDER BY hybrid_score DESC
                     LIMIT 5
                     """,
-                    (qvec_db,),
+                    (query, qvec_db),
                 )
                 items = cur.fetchall()
 
                 cur.execute(
                     """
-                    SELECT vendor_id, vendor_name, categories, preferred, region, sla_days, rating
-                    FROM vendors
-                    ORDER BY embedding <=> %s
+                    WITH q AS (
+                        SELECT plainto_tsquery('english', %s) AS tsq,
+                               %s::vector AS qvec
+                    ),
+                    ranked AS (
+                        SELECT v.vendor_id,
+                               v.vendor_name,
+                               v.categories,
+                               v.preferred,
+                               v.region,
+                               v.sla_days,
+                               v.rating,
+                               ts_rank_cd(
+                                   to_tsvector(
+                                       'english',
+                                       coalesce(v.vendor_name,'') || ' ' || coalesce(array_to_string(v.categories, ' '), '') || ' ' || coalesce(v.region, '')
+                                   ),
+                                   q.tsq
+                               ) AS fts_score,
+                               1 - (v.embedding <=> q.qvec) AS vector_score
+                        FROM vendors v
+                        CROSS JOIN q
+                    )
+                    SELECT vendor_id,
+                           vendor_name,
+                           categories,
+                           preferred,
+                           region,
+                           sla_days,
+                           rating,
+                           fts_score,
+                           vector_score,
+                           (0.35 * fts_score + 0.65 * vector_score) AS hybrid_score
+                    FROM ranked
+                    ORDER BY hybrid_score DESC
                     LIMIT 5
                     """,
-                    (qvec_db,),
+                    (query, qvec_db),
                 )
                 vendors = cur.fetchall()
 
@@ -113,6 +179,9 @@ def search_procurement_db(query: str) -> dict:
                     "preferred_vendor": r[5],
                     "estimated_price": float(r[6]) if r[6] is not None else None,
                     "lead_time_days": r[7],
+                    "fts_score": float(r[8] or 0.0),
+                    "vector_score": float(r[9] or 0.0),
+                    "hybrid_score": float(r[10] or 0.0),
                 }
                 for r in items
             ],
@@ -125,6 +194,9 @@ def search_procurement_db(query: str) -> dict:
                     "region": r[4],
                     "sla_days": r[5],
                     "rating": float(r[6]) if r[6] is not None else None,
+                    "fts_score": float(r[7] or 0.0),
+                    "vector_score": float(r[8] or 0.0),
+                    "hybrid_score": float(r[9] or 0.0),
                 }
                 for r in vendors
             ],
@@ -135,7 +207,7 @@ def search_procurement_db(query: str) -> dict:
 
 @tool
 def search_procurement_policy(query: str) -> list[dict]:
-    """Search procurement policy content using pgvector semantic similarity over indexed policy chunks."""
+    """Hybrid search policy chunks using full-text + pgvector semantic similarity."""
     def object_storage_fallback() -> list[dict]:
         client = oci_object_storage_client()
         namespace = client.get_namespace().data
@@ -167,15 +239,36 @@ def search_procurement_policy(query: str) -> list[dict]:
                 cur.execute("SET LOCAL ivfflat.probes = 10;")
                 cur.execute(
                     """
-                    SELECT COALESCE(object_name, policy_name) AS object_name,
-                           COALESCE(chunk_index, 0) AS chunk_index,
-                           COALESCE(content, chunk_text) AS content,
-                           1 - (embedding <=> %s) AS similarity
-                    FROM policy_chunks
-                    ORDER BY embedding <=> %s
+                    WITH q AS (
+                        SELECT plainto_tsquery('english', %s) AS tsq,
+                               %s::vector AS qvec
+                    ),
+                    ranked AS (
+                        SELECT COALESCE(p.object_name, p.policy_name) AS object_name,
+                               COALESCE(p.chunk_index, 0) AS chunk_index,
+                               COALESCE(p.content, p.chunk_text) AS content,
+                               ts_rank_cd(
+                                   to_tsvector(
+                                       'english',
+                                       coalesce(p.content, '') || ' ' || coalesce(p.policy_name, '') || ' ' || coalesce(p.object_name, '')
+                                   ),
+                                   q.tsq
+                               ) AS fts_score,
+                               1 - (p.embedding <=> q.qvec) AS vector_score
+                        FROM policy_chunks p
+                        CROSS JOIN q
+                    )
+                    SELECT object_name,
+                           chunk_index,
+                           content,
+                           fts_score,
+                           vector_score,
+                           (0.45 * fts_score + 0.55 * vector_score) AS hybrid_score
+                    FROM ranked
+                    ORDER BY hybrid_score DESC
                     LIMIT 8
                     """,
-                    (Vector(qvec), Vector(qvec)),
+                    (query, Vector(qvec)),
                 )
                 rows = cur.fetchall()
 
@@ -183,12 +276,20 @@ def search_procurement_policy(query: str) -> list[dict]:
             return object_storage_fallback()
 
         grouped: dict[str, dict] = {}
-        for object_name, chunk_index, content, similarity in rows:
+        for object_name, chunk_index, content, fts_score, vector_score, hybrid_score in rows:
             bucket = grouped.setdefault(
                 object_name,
-                {"object_name": object_name, "score": 0.0, "chunks": []},
+                {
+                    "object_name": object_name,
+                    "score": 0.0,
+                    "fts_score": 0.0,
+                    "vector_score": 0.0,
+                    "chunks": [],
+                },
             )
-            bucket["score"] = max(float(similarity or 0.0), bucket["score"])
+            bucket["score"] = max(float(hybrid_score or 0.0), bucket["score"])
+            bucket["fts_score"] = max(float(fts_score or 0.0), bucket["fts_score"])
+            bucket["vector_score"] = max(float(vector_score or 0.0), bucket["vector_score"])
             bucket["chunks"].append((int(chunk_index), content))
 
         ranked = sorted(grouped.values(), key=lambda x: x["score"], reverse=True)[:3]
@@ -200,8 +301,10 @@ def search_procurement_policy(query: str) -> list[dict]:
                 {
                     "object_name": rec["object_name"],
                     "score": round(rec["score"], 4),
+                    "fts_score": round(rec["fts_score"], 4),
+                    "vector_score": round(rec["vector_score"], 4),
                     "snippet": snippet,
-                    "source": "postgres_vector",
+                    "source": "postgres_hybrid",
                 }
             )
         return out

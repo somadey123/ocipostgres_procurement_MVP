@@ -11,8 +11,8 @@ It helps answer procurement questions using:
 - Chat API (`/chat`) and streaming chat API (`/chat/stream`)
 - Simple web chat UI (`/`)
 - Retrieval over:
-  - structured procurement data (`inventory_items`, `vendors`)
-  - procurement policy documents via semantic chunk search (`policy_chunks` in Postgres)
+  - structured procurement data (`inventory_items`, `vendors`) via hybrid search (full-text + vector)
+  - procurement policy documents via hybrid chunk search (`policy_chunks` in Postgres)
 - Synthetic dataset generator for MVP/demo usage
 
 ## Project Structure
@@ -95,6 +95,9 @@ python ingest_pg.py
 
 This ingestion step now also chunks and embeds local policy docs from `data/synthetic/policies/*.md`
 into `policy_chunks` for scalable semantic retrieval at query time.
+
+Hybrid ranking combines PostgreSQL full-text relevance (`ts_rank_cd`) with pgvector cosine similarity
+for better precision on exact keywords while keeping semantic recall.
 
 3. Upload policy docs to OCI Object Storage:
 
